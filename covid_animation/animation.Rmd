@@ -1,0 +1,56 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+library(ggplot2)
+library(ggthemes)
+library(gganimate)
+
+
+  
+b <- a %>%  filter(Date >= max(Date)-ddays(40)) %>% filter(!is.na(sevenday_netpc)) %>%
+  mutate(no=Date-ymd("2020-01-01"))
+b_min_date <- min(b$Date)
+b_max_date <- max(b$Date)
+  
+p <- b %>%  ggplot(aes(x=sevenday_newpc, y=ICU_Load, fill=State,colour=State,
+                                             size=Active, label=State,Date)) + geom_point() +
+    theme_economist_white() + 
+            labs(title="Evolution of Infections and ICU load in Austria",
+                 subtitle=paste("from",b_min_date,"to",b_max_date,sep=" "),
+            x="Seven Day Incidence (per 100k persons)",
+            y="ICU Load (%)",
+            caption="Data: https://covid19-dashboard.ages.at/") +
+  theme(legend.position = "right",
+          plot.title = element_text(size=14),
+          axis.title.x = element_text(size = 10),
+          axis.text.x = element_text(angle = 0, hjust = 1,size = 10),
+          axis.title.y = element_text(size = 10),
+          axis.text.y = element_text(size = 10),
+          strip.text.x = element_text(size = 12),
+          strip.text.y = element_text(size = 12, angle = 90),
+          legend.title=element_text(size=8),
+          legend.text=element_text(size=8))+
+    scale_y_continuous(labels=function(x) format(x, big.mark = ",", scientific = FALSE)) 
+
+
+p
+
+```
+
+
+```{r}
+ p + transition_time(Date) + 
+  ease_aes('linear') 
+  
+animate(p1, res=200)
+anim_save("anim.gif", animation = last_animation(), path = NULL)
+
+
+
+
+```
+
