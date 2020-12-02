@@ -1,3 +1,6 @@
+if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
+if(!require(lubridate)) install.packages("lubridate", repos = "http://cran.us.r-project.org")
+
 library(tidyverse)
 library(lubridate)
 
