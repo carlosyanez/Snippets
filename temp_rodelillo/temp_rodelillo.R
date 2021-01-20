@@ -69,7 +69,7 @@ p<- temp_chart %>% group_by(Año) %>%
   guides(fill = guide_colorbar(barwidth = 10, barheight = 1))+
   scale_fill_gradientn(colors = rev(col_strip)) +
   labs(title="Cambio climático en el Gran Valparaíso",
-       subtitle="Rodelillo (330007) - Temperatura Máxima, Promedio Anual",
+       subtitle="Rodelillo (330007) - Temperatura Máxima Diaria, Promedio Anual",
        legend="Temperatura (C)",
        caption = "Fuente: Dirección Metereológica de Chile")+
   theme_strip
