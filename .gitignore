@@ -25,3 +25,6 @@ temp_rodelillo/agua.csv
 temp_rodelillo/data.csv
 temp_rodelillo/hum.csv
 temp_rodelillo/README.html
+google_analytics_sample_dataset/ga_stats.csv
+google_analytics_sample_dataset/ga_stats.rds
+google_analytics_sample_dataset/.Rhistory
