@@ -32,39 +32,86 @@ con <- dbConnect(
   bigrquery::bigquery(),
   project = "bigquery-public-data",
   dataset = "google_analytics_sample",
-  billing = "<<PROJECT NAME HERE>>")
+  billing = "carlosyanezcl")
 
-#dbListTables(con)
+dbListTables(con)
 
-#### list sample to downlad
+#### list sample to download
 
-ga_tables <- c("ga_sessions_20160801","ga_sessions_20160802","ga_sessions_20160803",
-               "ga_sessions_20160804","ga_sessions_20160805")
-               
-               
-#               "ga_sessions_20160806",
-#               "ga_sessions_20160807","ga_sessions_20160808","ga_sessions_20160809",
-#               "ga_sessions_20160810","ga_sessions_20160811","ga_sessions_20160812",
-#               "ga_sessions_20160813","ga_sessions_20160814","ga_sessions_20160815")
+ga_tables <- dbListTables(con)
+ga_tables <- ga_tables[1:10]  
+
+  
+###download data
 
 for(i in 1:length(ga_tables)){
   
   data_i <- tbl(con,ga_tables[i])
-  data_i <- data_i %>% collect()
+  data_i2 <- data_i %>% collect()
   
-  data_i2<-data_i %>% unnest_wider(totals, names_repair="universal") %>%
-    unnest_wider(geoNetwork, names_repair="universal") %>%
-    unnest_wider(device, names_repair="universal") %>%
-    unnest_wider(hits...49, names_repair="universal") %>%
-    unnest_wider(trafficSource, names_repair="universal") %>%
-    unnest_wider(adwordsClickInfo, names_repair="universal") %>%
-    unnest_wider(...25, names_repair="universal")
-  
+
   if(exists("result")){
      result <- rbind(result,data_i2)
      }else{ result<-data_i2}
   
 }
 
-result <- as_tibble(result)
-write_rds(result,"ga_stats.rds")
+stats <- result
+
+##backup
+write_rds(stats,"ga_stats.rds")
+
+#expand lists
+
+for(j in 1:5){
+
+##get columns types
+
+col_names <- names(stats)
+col_types <- tibble(column=character(),type=character())
+
+for(i in 1:length(col_names)){
+  
+  col_types<- tibble::add_row(col_types,column=col_names[i],type=typeof(stats[[i]]))
+  
+}
+
+lists <- col_types %>% filter(type=="list")
+
+if(nrow(lists)>0){
+  for(i in 1:nrow(lists)){
+    stats <- stats %>% unnest_wider(lists[i,]$column, names_repair="unique")
+  }
+}
+
+}
+
+#remove residual lists
+stats<- stats %>% select(where(function(x) {a<-is.list(x)
+!a  
+}))
+
+#remove columns with  "not available in demo dataset"
+
+
+col_names <- names(stats)
+col_types <- tibble(column=character(),type=character())
+
+for(i in 1:length(col_names)){
+  
+  value <- stats[1,i] %>% pull()
+  value <- as.character(as.character(value)=="not available in demo dataset")
+  col_types<- tibble::add_row(col_types,column=col_names[i],type=value)
+  
+}
+
+filter <- col_types %>% mutate(type=ifelse(is.na(type),FALSE,type)) %>% filter(type==FALSE) 
+
+
+stats<- stats %>% select(all_of(filter$column))
+
+#store in csv file
+
+write_csv(stats,"ga_stats.csv")
+
+
