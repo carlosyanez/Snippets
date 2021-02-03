@@ -5,6 +5,6 @@ Comparison of green areas within the the "metropolitan areas" of Melbourne (AU),
 Tweeted [here](https://twitter.com/carlosyanez/status/1356928575799255040).
 
 
-![](green_spaces.png.png)
+![](green_spaces.png)
 
 Data: OpenStreetMaps
