@@ -18,7 +18,7 @@ library(patchwork)
 font_add_google("Titillium Web", "Titilium")
 showtext_auto()
 
-green_spaces <- function(boundingbox,map_title){
+plot_polygons <- function(boundingbox,features, map_title){
   
   ### Get font
   
@@ -45,34 +45,32 @@ green_spaces <- function(boundingbox,map_title){
   
   ## Get green areas
   
-  parks1 <-    opq(boundingbox) %>%
-    add_osm_feature(key = 'leisure',
-                    value = c("garden", "nature_reserve",
-                              "park", "common","beach_resort","fishing","bird_hide")) %>%
-    osmdata_sp()
-  
-  Sys.sleep(60)
-  parks2 <-    opq(boundingbox) %>%
-    add_osm_feature(key="landuse",value=c("flowerbed","forest","meadow","grass",
-                                          "recreation_ground", 	"vineyard","farmland")) %>%
-    osmdata_sp()
-  Sys.sleep(60)
-  parks3 <-    opq(boundingbox) %>%
-    add_osm_feature(key="tourism",value=c("zoo","picnic_site","camp_site")) %>%
-    osmdata_sp()
-  Sys.sleep(60)
-  parks4 <-    opq(boundingbox) %>%
-    add_osm_feature(key="natural",value=c("wood","scrub","grassland")) %>%
-    osmdata_sp()
+  feature_keys <- features %>% pull(key)  %>% unique()
   
   
-  parks1 <- tidy(parks1$osm_polygons, group = osm_id)
-  parks2 <- tidy(parks2$osm_polygons, group = osm_id)
-  parks3 <- tidy(parks3$osm_polygons, group = osm_id)
-  parks4 <- tidy(parks4$osm_polygons, group = osm_id)
-  
+  parks <- map_dfr(1:length(feature_keys), function(x,features,feature_keys,boundingbox) {
+                     message(x)
     
-  parks <- rbind(parks1,parks2) %>% rbind(parks3) %>% rbind(parks4)
+                     feature_key <- feature_keys[x]
+                     message(feature_key)
+                     values <-  features %>% filter(key==feature_key) %>% pull(value)
+                     message(values)
+                     
+                     parks <- opq(boundingbox) %>%
+                              add_osm_feature(key = feature_key,
+                                               value = values) %>%
+                              osmdata_sp()
+                     
+                     Sys.sleep(60)
+                     parks$osm_polygons <- parks$osm_polygons 
+                     parks <- tidy(parks$osm_polygons, group = osm_id) %>%
+                              nest(polygon=!id) %>%
+                              left_join(as.data.frame(parks1$osm_polygons) %>% 
+                                        mutate(osm_id=as.numeric(osm_id)),
+                                 by=c("id"="osm_id"))
+                     
+                     parks
+                      },features,feature_keys,boundingbox)
   
   #get map tiles  
   
@@ -91,14 +89,18 @@ green_spaces <- function(boundingbox,map_title){
   map_plot <- ggmap(map_tiles)  +
     
     geom_polygon(
-      data = parks,
+      data = parks %>%  dplyr::select(id,polygon) %>% unnest(polygon),
       mapping = aes(y = lat , x = long, group = group),
       fill = "#085202",
       size = 1
     )  + theme_map + labs(title=map_title)
   
-  map_plot
+  result <- list()
   
+  result$data <- parks
+  result$plot <- map_plot
+  
+  result
 }
 
 ### download metropolitan boundaries
@@ -108,22 +110,45 @@ if(!file.exists("cities.json")){
 }
 metro_cities <- readOGR("cities.json")
 
-melb_box   <-metro_cities %>% filter(name=="Melbourne")
-stgo_box   <-metro_cities %>% filter(name=="Santiago")
-vienna_box <-metro_cities %>% filter(name=="Vienna")
+melb_box   <-metro_cities %>% filter(name=="Melbourne")  %>% bbox(.)
+stgo_box   <-metro_cities %>% filter(name=="Santiago") %>% bbox(.)
+vienna_box <-metro_cities %>% filter(name=="Vienna")  %>% bbox(.)
 
-melb_box   <- bbox(melb_box)
-stgo_box   <- bbox(stgo_box)
-vienna_box <- bbox(vienna_box)
 
-##create map
-melb_map   <- green_spaces(melb_box,"Melbourne, Australia")
+
+###List features
+
+features  <- tribble(~key,~value,
+                     "leisure","garden",
+                     "leisure","nature_reserve",
+                     "leisure","park",
+                     "leisure","common",
+                     "leisure","beach_resort",
+                     "leisure","fishing",
+                     "leisure","bird_hide",
+                     "landuse","flowerbed",
+                     "landuse","forest",  
+                     "landuse","meadow",  
+                     "landuse","grass",  
+                     "landuse","recreation_ground",  
+                     "landuse","vineyard",  
+                     "landuse","farmland",
+                     "tourism","zoo",
+                     "tourism","picnic_site",
+                     "tourism","camp_site",
+                     "natural","wood",
+                     "natural","scrub",
+                     "natural","grassland"
+)
+
+##create maps
+melb_map   <- plot_polygons(melb_box,features,"Melbourne, Australia")
 Sys.sleep(500)
-stgo_map   <- green_spaces(stgo_box,"Santiago, Chile")
+stgo_map   <- plot_polygons(stgo_box,features,"Santiago, Chile")
 Sys.sleep(500)
-vienna_map <- green_spaces(vienna_box,"Vienna, Austria")
+vienna_map <- plot_polygons(vienna_box,features,"Vienna, Austria")
 
-map <- melb_map + stgo_map  + vienna_map +
+map <- melb_map$plot + stgo_map$plot  + vienna_map$plot +
       plot_annotation(title="Green Spaces in Selected Cities") & 
   theme(text= element_text(size = 16, face = "bold",family="Titilium"))
 
@@ -156,3 +181,5 @@ p2 <- ggdraw() +
 
 ## save into png file
 ggsave("green_spaces.png",p2,width = 12,height=6)
+
+nest(stgo_map$data,data = !group)

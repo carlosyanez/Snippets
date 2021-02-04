@@ -1,0 +1,7824 @@
+{
+  "features": [{
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -4.183,
+              5.22
+            ],
+            [
+              -4.183,
+              5.523
+            ],
+            [
+              -3.849,
+              5.523
+            ],
+            [
+              -3.849,
+              5.22
+            ],
+            [
+              -4.183,
+              5.22
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "abidjan_ivory-coast",
+        "name": "Abidjan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              7.248,
+              8.835
+            ],
+            [
+              7.248,
+              9.246
+            ],
+            [
+              7.717,
+              9.246
+            ],
+            [
+              7.717,
+              8.835
+            ],
+            [
+              7.248,
+              8.835
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "abuja_nigeria",
+        "name": "Abuja"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -0.437,
+              5.475
+            ],
+            [
+              -0.437,
+              5.675
+            ],
+            [
+              -0.071,
+              5.675
+            ],
+            [
+              -0.071,
+              5.475
+            ],
+            [
+              -0.437,
+              5.475
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "accra_ghana",
+        "name": "Accra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              38.651,
+              8.919
+            ],
+            [
+              38.651,
+              9.077
+            ],
+            [
+              38.92,
+              9.077
+            ],
+            [
+              38.92,
+              8.919
+            ],
+            [
+              38.651,
+              8.919
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "addis-abeba_ethiopia",
+        "name": "Addis-Abeba"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              29.689,
+              31.024
+            ],
+            [
+              29.689,
+              31.432
+            ],
+            [
+              30.295,
+              31.432
+            ],
+            [
+              30.295,
+              31.024
+            ],
+            [
+              29.689,
+              31.024
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "alexandria_egypt",
+        "name": "Alexandria"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              2.828,
+              36.567
+            ],
+            [
+              2.828,
+              36.847
+            ],
+            [
+              3.392,
+              36.847
+            ],
+            [
+              3.392,
+              36.567
+            ],
+            [
+              2.828,
+              36.567
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "algiers_algeria_expanded",
+        "name": "Algiers"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              30.897,
+              29.761
+            ],
+            [
+              30.897,
+              30.564
+            ],
+            [
+              31.71,
+              30.564
+            ],
+            [
+              31.71,
+              29.761
+            ],
+            [
+              30.897,
+              29.761
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cairo_egypt",
+        "name": "Cairo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              18.302,
+              -34.363
+            ],
+            [
+              18.302,
+              -33.471
+            ],
+            [
+              19.004,
+              -33.471
+            ],
+            [
+              19.004,
+              -34.363
+            ],
+            [
+              18.302,
+              -34.363
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cape-town_south-africa",
+        "name": "Cape Town"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -7.737,
+              33.487
+            ],
+            [
+              -7.737,
+              33.652
+            ],
+            [
+              -7.456,
+              33.652
+            ],
+            [
+              -7.456,
+              33.487
+            ],
+            [
+              -7.737,
+              33.487
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "casablanca_morocco",
+        "name": "Casablanca"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              38.894,
+              -7.12
+            ],
+            [
+              38.894,
+              -6.502
+            ],
+            [
+              39.661,
+              -6.502
+            ],
+            [
+              39.661,
+              -7.12
+            ],
+            [
+              38.894,
+              -7.12
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dar-es-salaam_tanzania",
+        "name": "Dar es Salaam"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              27.537,
+              -26.563
+            ],
+            [
+              27.537,
+              -25.834
+            ],
+            [
+              28.542,
+              -25.834
+            ],
+            [
+              28.542,
+              -26.563
+            ],
+            [
+              27.537,
+              -26.563
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "johannesburg_south-africa",
+        "name": "Johannesburg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              2.889,
+              6.32
+            ],
+            [
+              2.889,
+              6.91
+            ],
+            [
+              3.834,
+              6.91
+            ],
+            [
+              3.834,
+              6.32
+            ],
+            [
+              2.889,
+              6.32
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "lagos_nigeria",
+        "name": "Lagos"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              13.086,
+              -9.089
+            ],
+            [
+              13.086,
+              -8.729
+            ],
+            [
+              13.5,
+              -8.729
+            ],
+            [
+              13.5,
+              -9.089
+            ],
+            [
+              13.086,
+              -9.089
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "luanda_angola",
+        "name": "Luanda"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              36.582,
+              -1.488
+            ],
+            [
+              36.582,
+              -0.965
+            ],
+            [
+              37.056,
+              -0.965
+            ],
+            [
+              37.056,
+              -1.488
+            ],
+            [
+              36.582,
+              -1.488
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "nairobi_kenya",
+        "name": "Nairobi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.978,
+              36.659
+            ],
+            [
+              9.978,
+              37.008
+            ],
+            [
+              10.493,
+              37.008
+            ],
+            [
+              10.493,
+              36.659
+            ],
+            [
+              9.978,
+              36.659
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tunis_tunisia",
+        "name": "Tunis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.886,
+              27.106
+            ],
+            [
+              77.886,
+              27.259
+            ],
+            [
+              78.151,
+              27.259
+            ],
+            [
+              78.151,
+              27.106
+            ],
+            [
+              77.886,
+              27.106
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "agra_india",
+        "name": "Agra"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              72.364,
+              22.855
+            ],
+            [
+              72.364,
+              23.201
+            ],
+            [
+              72.787,
+              23.201
+            ],
+            [
+              72.787,
+              22.855
+            ],
+            [
+              72.364,
+              22.855
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "ahmedabad_india",
+        "name": "Ahmedabad"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              76.575,
+              43.057
+            ],
+            [
+              76.575,
+              43.549
+            ],
+            [
+              77.223,
+              43.549
+            ],
+            [
+              77.223,
+              43.057
+            ],
+            [
+              76.575,
+              43.057
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "almaty_kazakhstan",
+        "name": "Almaty"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              32.105,
+              39.439
+            ],
+            [
+              32.105,
+              40.372
+            ],
+            [
+              33.509,
+              40.372
+            ],
+            [
+              33.509,
+              39.439
+            ],
+            [
+              32.105,
+              39.439
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "ankara_turkey",
+        "name": "Ankara"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              71.212,
+              51.003
+            ],
+            [
+              71.212,
+              51.29
+            ],
+            [
+              71.74,
+              51.29
+            ],
+            [
+              71.74,
+              51.003
+            ],
+            [
+              71.212,
+              51.003
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "astana_kazakhstan",
+        "name": "Astana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              99.569,
+              12.661
+            ],
+            [
+              99.569,
+              15.019
+            ],
+            [
+              101.337,
+              15.019
+            ],
+            [
+              101.337,
+              12.661
+            ],
+            [
+              99.569,
+              12.661
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bangkok_thailand",
+        "name": "Bangkok"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              115.686,
+              39.414
+            ],
+            [
+              115.686,
+              40.426
+            ],
+            [
+              117.119,
+              40.426
+            ],
+            [
+              117.119,
+              39.414
+            ],
+            [
+              115.686,
+              39.414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "beijing_china",
+        "name": "Beijing"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              77.35,
+              12.75
+            ],
+            [
+              77.35,
+              13.23
+            ],
+            [
+              77.85,
+              13.23
+            ],
+            [
+              77.85,
+              12.75
+            ],
+            [
+              77.35,
+              12.75
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bengaluru_india",
+        "name": "Bengaluru"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              103.564,
+              30.363
+            ],
+            [
+              103.564,
+              30.987
+            ],
+            [
+              104.555,
+              30.987
+            ],
+            [
+              104.555,
+              30.363
+            ],
+            [
+              103.564,
+              30.363
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "chengdu_china",
+        "name": "Chengdu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              79.9,
+              12.7
+            ],
+            [
+              79.9,
+              13.3
+            ],
+            [
+              80.4,
+              13.3
+            ],
+            [
+              80.4,
+              12.7
+            ],
+            [
+              79.9,
+              12.7
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "chennai_india",
+        "name": "Chennai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              105.283,
+              28.167
+            ],
+            [
+              105.283,
+              32.217
+            ],
+            [
+              110.183,
+              32.217
+            ],
+            [
+              110.183,
+              28.167
+            ],
+            [
+              105.283,
+              28.167
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "chongqing_china",
+        "name": "Chongqing"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              89.998,
+              23.435
+            ],
+            [
+              89.998,
+              24.006
+            ],
+            [
+              90.838,
+              24.006
+            ],
+            [
+              90.838,
+              23.435
+            ],
+            [
+              89.998,
+              23.435
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dhaka_bangladesh",
+        "name": "Dhaka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              112.181,
+              22.533
+            ],
+            [
+              112.181,
+              23.981
+            ],
+            [
+              114.972,
+              23.981
+            ],
+            [
+              114.972,
+              22.533
+            ],
+            [
+              112.181,
+              22.533
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "guangzhou_china",
+        "name": "Guangzhou"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.1,
+              30.23
+            ],
+            [
+              120.1,
+              30.296
+            ],
+            [
+              120.185,
+              30.296
+            ],
+            [
+              120.185,
+              30.23
+            ],
+            [
+              120.1,
+              30.23
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hangzhou_china",
+        "name": "Hangzhou"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              105.742,
+              20.945
+            ],
+            [
+              105.742,
+              21.098
+            ],
+            [
+              105.911,
+              21.098
+            ],
+            [
+              105.911,
+              20.945
+            ],
+            [
+              105.742,
+              20.945
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hanoi_vietnam",
+        "name": "Hanoi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              106.458,
+              10.611
+            ],
+            [
+              106.458,
+              11.021
+            ],
+            [
+              106.949,
+              11.021
+            ],
+            [
+              106.949,
+              10.611
+            ],
+            [
+              106.458,
+              10.611
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "ho-chi-minh-city_vietnam",
+        "name": "Ho Chi Minh City"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              112.78,
+              21.591
+            ],
+            [
+              112.78,
+              23.488
+            ],
+            [
+              115.125,
+              23.488
+            ],
+            [
+              115.125,
+              21.591
+            ],
+            [
+              112.78,
+              21.591
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hong-kong_china",
+        "name": "Hong Kong"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              78.216,
+              17.191
+            ],
+            [
+              78.216,
+              17.63
+            ],
+            [
+              78.727,
+              17.63
+            ],
+            [
+              78.727,
+              17.191
+            ],
+            [
+              78.216,
+              17.191
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hyderabad_india",
+        "name": "Hyderabad"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              66.401,
+              23.958
+            ],
+            [
+              66.401,
+              25.593
+            ],
+            [
+              68.576,
+              25.593
+            ],
+            [
+              68.576,
+              23.958
+            ],
+            [
+              66.401,
+              23.958
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "karachi_pakistan",
+        "name": "Karachi"
+      },
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              76.158,
+              9.681
+            ],
+            [
+              76.501,
+              9.681
+            ],
+            [
+              76.501,
+              10.201
+            ],
+            [
+              76.158,
+              10.201
+            ],
+            [
+              76.158,
+              9.681
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kochi_india",
+        "name": "Kochi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              87.751,
+              22.117
+            ],
+            [
+              87.751,
+              23.106
+            ],
+            [
+              89.119,
+              23.106
+            ],
+            [
+              89.119,
+              22.117
+            ],
+            [
+              87.751,
+              22.117
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kolkata_india",
+        "name": "Kolkata"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              101.425,
+              2.776
+            ],
+            [
+              101.425,
+              3.407
+            ],
+            [
+              101.994,
+              3.407
+            ],
+            [
+              101.994,
+              2.776
+            ],
+            [
+              101.425,
+              2.776
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kuala-lumpur_malaysia",
+        "name": "Kuala Lumpur"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.885,
+              14.327
+            ],
+            [
+              120.885,
+              14.9
+            ],
+            [
+              121.2,
+              14.9
+            ],
+            [
+              121.2,
+              14.327
+            ],
+            [
+              120.885,
+              14.327
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "manila_philippines",
+        "name": "Manila"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              36.8,
+              55.123
+            ],
+            [
+              36.8,
+              56.2
+            ],
+            [
+              38.43,
+              56.2
+            ],
+            [
+              38.43,
+              55.123
+            ],
+            [
+              36.8,
+              55.123
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "moscow_russia",
+        "name": "Moscow"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              72.415,
+              18.466
+            ],
+            [
+              72.415,
+              19.5
+            ],
+            [
+              73.516,
+              19.5
+            ],
+            [
+              73.516,
+              18.466
+            ],
+            [
+              72.415,
+              18.466
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "mumbai_india",
+        "name": "Mumbai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              76.692,
+              28.183
+            ],
+            [
+              76.692,
+              28.969
+            ],
+            [
+              77.733,
+              28.969
+            ],
+            [
+              77.733,
+              28.183
+            ],
+            [
+              76.692,
+              28.183
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "new-delhi_india",
+        "name": "New Delhi"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              43.718,
+              56.193
+            ],
+            [
+              43.718,
+              56.4
+            ],
+            [
+              44.135,
+              56.4
+            ],
+            [
+              44.135,
+              56.193
+            ],
+            [
+              43.718,
+              56.193
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "nizhniy-novgorod_russia",
+        "name": "Nizhniy Novgorod"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              55.795,
+              57.865
+            ],
+            [
+              55.795,
+              58.182
+            ],
+            [
+              56.675,
+              58.182
+            ],
+            [
+              56.675,
+              57.865
+            ],
+            [
+              55.795,
+              57.865
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "perm_russia",
+        "name": "Perm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              73.603,
+              18.337
+            ],
+            [
+              73.603,
+              18.771
+            ],
+            [
+              74.072,
+              18.771
+            ],
+            [
+              74.072,
+              18.337
+            ],
+            [
+              73.603,
+              18.337
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "pune_india",
+        "name": "Pune"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              95.257,
+              16.233
+            ],
+            [
+              95.257,
+              17.729
+            ],
+            [
+              97.337,
+              17.729
+            ],
+            [
+              97.337,
+              16.233
+            ],
+            [
+              95.257,
+              16.233
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "rangoon_myanmar",
+        "name": "Rangoon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              29.168,
+              59.556
+            ],
+            [
+              29.168,
+              60.345
+            ],
+            [
+              31.173,
+              60.345
+            ],
+            [
+              31.173,
+              59.556
+            ],
+            [
+              29.168,
+              59.556
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "saint-petersburg_russia",
+        "name": "Saint Petersburg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              48.5,
+              52.4
+            ],
+            [
+              48.5,
+              54.037
+            ],
+            [
+              51.918,
+              54.037
+            ],
+            [
+              51.918,
+              52.4
+            ],
+            [
+              48.5,
+              52.4
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "samara-tolyatti_russia",
+        "name": "Samara Tolyatti"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              126.064,
+              37.019
+            ],
+            [
+              126.064,
+              37.98
+            ],
+            [
+              127.525,
+              37.98
+            ],
+            [
+              127.525,
+              37.019
+            ],
+            [
+              126.064,
+              37.019
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "seoul_south-korea",
+        "name": "Seoul"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              118.887,
+              29.477
+            ],
+            [
+              118.887,
+              32.472
+            ],
+            [
+              123.787,
+              32.472
+            ],
+            [
+              123.787,
+              29.477
+            ],
+            [
+              118.887,
+              29.477
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "shanghai_china",
+        "name": "Shanghai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              113.755,
+              22.422
+            ],
+            [
+              113.755,
+              22.808
+            ],
+            [
+              114.681,
+              22.808
+            ],
+            [
+              114.681,
+              22.422
+            ],
+            [
+              113.755,
+              22.422
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "shenzhen_china",
+        "name": "Shenzhen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              103.062,
+              0.807
+            ],
+            [
+              103.062,
+              1.823
+            ],
+            [
+              104.545,
+              1.823
+            ],
+            [
+              104.545,
+              0.807
+            ],
+            [
+              103.062,
+              0.807
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "singapore",
+        "name": "Singapore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.346,
+              24.926
+            ],
+            [
+              121.346,
+              25.209
+            ],
+            [
+              121.676,
+              25.209
+            ],
+            [
+              121.676,
+              24.926
+            ],
+            [
+              121.346,
+              24.926
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "taipei_taiwan",
+        "name": "Taipei"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              116.528,
+              38.378
+            ],
+            [
+              116.528,
+              39.779
+            ],
+            [
+              118.531,
+              39.779
+            ],
+            [
+              118.531,
+              38.378
+            ],
+            [
+              116.528,
+              38.378
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tianjin_china",
+        "name": "Tianjin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              138.779,
+              34.867
+            ],
+            [
+              138.779,
+              36.558
+            ],
+            [
+              141.152,
+              36.558
+            ],
+            [
+              141.152,
+              34.867
+            ],
+            [
+              138.779,
+              34.867
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tokyo_japan",
+        "name": "Tokyo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              106.344,
+              47.696
+            ],
+            [
+              106.344,
+              48.285
+            ],
+            [
+              107.43,
+              48.285
+            ],
+            [
+              107.43,
+              47.696
+            ],
+            [
+              106.344,
+              47.696
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "ulaanbaatar_mongolia",
+        "name": "Ulaanbaatar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              113.745,
+              30.079
+            ],
+            [
+              113.745,
+              30.903
+            ],
+            [
+              114.798,
+              30.903
+            ],
+            [
+              114.798,
+              30.079
+            ],
+            [
+              113.745,
+              30.079
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "wuhan_china",
+        "name": "Wuhan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              16.955,
+              48.061
+            ],
+            [
+              16.955,
+              48.295
+            ],
+            [
+              17.494,
+              48.295
+            ],
+            [
+              17.494,
+              48.061
+            ],
+            [
+              16.955,
+              48.061
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bratislava_slovakia",
+        "name": "Bratislava"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              25.542,
+              44.141
+            ],
+            [
+              25.542,
+              44.729
+            ],
+            [
+              26.756,
+              44.729
+            ],
+            [
+              26.756,
+              44.141
+            ],
+            [
+              25.542,
+              44.141
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bucharest_romania",
+        "name": "Bucharest"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              18.347,
+              47.025
+            ],
+            [
+              18.347,
+              47.861
+            ],
+            [
+              19.78,
+              47.861
+            ],
+            [
+              19.78,
+              47.025
+            ],
+            [
+              18.347,
+              47.025
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "budapest_hungary",
+        "name": "Budapest"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              23.454,
+              46.68
+            ],
+            [
+              23.454,
+              46.83
+            ],
+            [
+              23.755,
+              46.83
+            ],
+            [
+              23.755,
+              46.68
+            ],
+            [
+              23.454,
+              46.68
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cluj_romania",
+        "name": "Cluj"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              18.174,
+              54.007
+            ],
+            [
+              18.174,
+              54.87
+            ],
+            [
+              19.113,
+              54.87
+            ],
+            [
+              19.113,
+              54.007
+            ],
+            [
+              18.174,
+              54.007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "gdansk_poland",
+        "name": "Gdansk"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              28.313,
+              40.738
+            ],
+            [
+              28.313,
+              41.421
+            ],
+            [
+              29.678,
+              41.421
+            ],
+            [
+              29.678,
+              40.738
+            ],
+            [
+              28.313,
+              40.738
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "istanbul_turkey",
+        "name": "Istanbul"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              36.106,
+              49.878
+            ],
+            [
+              36.106,
+              50.105
+            ],
+            [
+              36.455,
+              50.105
+            ],
+            [
+              36.455,
+              49.878
+            ],
+            [
+              36.106,
+              49.878
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kharkiv_ukraine",
+        "name": "Kharkiv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              19.594,
+              49.85
+            ],
+            [
+              19.594,
+              50.24
+            ],
+            [
+              20.275,
+              50.24
+            ],
+            [
+              20.275,
+              49.85
+            ],
+            [
+              19.594,
+              49.85
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "krakow_poland",
+        "name": "Krakow"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              30.078,
+              50.086
+            ],
+            [
+              30.078,
+              50.74
+            ],
+            [
+              30.97,
+              50.74
+            ],
+            [
+              30.97,
+              50.086
+            ],
+            [
+              30.078,
+              50.086
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kyiv_ukraine",
+        "name": "Kyiv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              23.587,
+              49.573
+            ],
+            [
+              23.587,
+              50.148
+            ],
+            [
+              24.433,
+              50.148
+            ],
+            [
+              24.433,
+              49.573
+            ],
+            [
+              23.587,
+              49.573
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "lviv_ukraine",
+        "name": "Lviv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              27.375,
+              53.796
+            ],
+            [
+              27.375,
+              53.972
+            ],
+            [
+              28.064,
+              53.972
+            ],
+            [
+              28.064,
+              53.796
+            ],
+            [
+              27.375,
+              53.796
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "minsk_belarus",
+        "name": "Minsk"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              16.732,
+              52.292
+            ],
+            [
+              16.732,
+              52.509
+            ],
+            [
+              17.072,
+              52.509
+            ],
+            [
+              17.072,
+              52.292
+            ],
+            [
+              16.732,
+              52.292
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "poznan_poland",
+        "name": "Poznan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              13.842,
+              49.763
+            ],
+            [
+              13.842,
+              50.408
+            ],
+            [
+              15.012,
+              50.408
+            ],
+            [
+              15.012,
+              49.763
+            ],
+            [
+              13.842,
+              49.763
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "prague_czech-republic",
+        "name": "Prague"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              23.469,
+              56.579
+            ],
+            [
+              23.469,
+              57.3
+            ],
+            [
+              24.789,
+              57.3
+            ],
+            [
+              24.789,
+              56.579
+            ],
+            [
+              23.469,
+              56.579
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "riga_latvia",
+        "name": "Riga"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              26.42486572265625,
+              55.94227871136694
+            ],
+            [
+              26.398086547851562,
+              55.8367712028016
+            ],
+            [
+              26.615066528320312,
+              55.824430445857764
+            ],
+            [
+              26.663818359375,
+              55.898416270776835
+            ],
+            [
+              26.597213745117188,
+              55.964959961301325
+            ],
+            [
+              26.42486572265625,
+              55.94227871136694
+            ]
+          ]
+            
+          
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "daugavpils_latvia",
+        "name": "Daugavpils"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              22.87,
+              42.38
+            ],
+            [
+              22.87,
+              43.04
+            ],
+            [
+              23.83,
+              43.04
+            ],
+            [
+              23.83,
+              42.38
+            ],
+            [
+              22.87,
+              42.38
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "sofia_bulgaria",
+        "name": "Sofia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              16.137,
+              48.048
+            ],
+            [
+              16.137,
+              48.386
+            ],
+            [
+              16.714,
+              48.386
+            ],
+            [
+              16.714,
+              48.048
+            ],
+            [
+              16.137,
+              48.048
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "vienna_austria",
+        "name": "Vienna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              20.341,
+              51.845
+            ],
+            [
+              20.341,
+              52.623
+            ],
+            [
+              21.692,
+              52.623
+            ],
+            [
+              21.692,
+              51.845
+            ],
+            [
+              20.341,
+              51.845
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "warsaw_poland",
+        "name": "Warsaw"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              16.652,
+              50.877
+            ],
+            [
+              16.652,
+              51.311
+            ],
+            [
+              17.363,
+              51.311
+            ],
+            [
+              17.363,
+              50.877
+            ],
+            [
+              16.652,
+              50.877
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "wroclaw_poland",
+        "name": "Wroclaw"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              15.81,
+              45.74
+            ],
+            [
+              15.81,
+              45.848
+            ],
+            [
+              16.151,
+              45.848
+            ],
+            [
+              16.151,
+              45.74
+            ],
+            [
+              15.81,
+              45.74
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "zagreb_croatia",
+        "name": "Zagreb"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              35.21,
+              36.95
+            ],
+            [
+              35.21,
+              37.07
+            ],
+            [
+              35.46,
+              37.07
+            ],
+            [
+              35.46,
+              36.95
+            ],
+            [
+              35.21,
+              36.95
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "adana_turkey",
+        "name": "Adana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              35.715,
+              31.668
+            ],
+            [
+              35.715,
+              32.171
+            ],
+            [
+              36.25,
+              32.171
+            ],
+            [
+              36.25,
+              31.668
+            ],
+            [
+              35.715,
+              31.668
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "amman_jordan",
+        "name": "Amman"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              43.786,
+              32.967
+            ],
+            [
+              43.786,
+              33.715
+            ],
+            [
+              44.862,
+              33.715
+            ],
+            [
+              44.862,
+              32.967
+            ],
+            [
+              43.786,
+              32.967
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "baghdad_iraq",
+        "name": "Baghdad"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              51.24,
+              24.951
+            ],
+            [
+              51.24,
+              25.637
+            ],
+            [
+              51.801,
+              25.637
+            ],
+            [
+              51.801,
+              24.951
+            ],
+            [
+              51.24,
+              24.951
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "doha_qatar",
+        "name": "Doha"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              53.58,
+              23.735
+            ],
+            [
+              53.58,
+              26.539
+            ],
+            [
+              56.887,
+              26.539
+            ],
+            [
+              56.887,
+              23.735
+            ],
+            [
+              53.58,
+              23.735
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dubai_abu-dhabi",
+        "name": "Dubai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              26.855,
+              38.29
+            ],
+            [
+              26.855,
+              38.545
+            ],
+            [
+              27.304,
+              38.545
+            ],
+            [
+              27.304,
+              38.29
+            ],
+            [
+              26.855,
+              38.29
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "izmir_turkey",
+        "name": "Izmir"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              39.029,
+              21.005
+            ],
+            [
+              39.029,
+              21.905
+            ],
+            [
+              39.393,
+              21.905
+            ],
+            [
+              39.393,
+              21.005
+            ],
+            [
+              39.029,
+              21.005
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "jeddah_saudi-arabia",
+        "name": "Jeddah"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              35.072,
+              31.712
+            ],
+            [
+              35.072,
+              31.866
+            ],
+            [
+              35.341,
+              31.866
+            ],
+            [
+              35.341,
+              31.712
+            ],
+            [
+              35.072,
+              31.712
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "jerusalem_israel",
+        "name": "Jerusalem"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              46.227,
+              24.292
+            ],
+            [
+              46.227,
+              25.098
+            ],
+            [
+              47.202,
+              25.098
+            ],
+            [
+              47.202,
+              24.292
+            ],
+            [
+              46.227,
+              24.292
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "riyadh_saudi-arabia",
+        "name": "Riyadh"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              50.87,
+              35.383
+            ],
+            [
+              50.87,
+              35.917
+            ],
+            [
+              51.648,
+              35.917
+            ],
+            [
+              51.648,
+              35.383
+            ],
+            [
+              50.87,
+              35.383
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tehran_iran",
+        "name": "Tehran"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              34.642,
+              31.929
+            ],
+            [
+              34.642,
+              32.246
+            ],
+            [
+              35.052,
+              32.246
+            ],
+            [
+              35.052,
+              31.929
+            ],
+            [
+              34.642,
+              31.929
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tel-aviv_israel",
+        "name": "Tel Aviv"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -73.898,
+              42.614
+            ],
+            [
+              -73.898,
+              42.764
+            ],
+            [
+              -73.725,
+              42.764
+            ],
+            [
+              -73.725,
+              42.614
+            ],
+            [
+              -73.898,
+              42.614
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "albany_new-york",
+        "name": "Albany"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -85.386,
+              32.844
+            ],
+            [
+              -85.386,
+              34.618
+            ],
+            [
+              -83.269,
+              34.618
+            ],
+            [
+              -83.269,
+              32.844
+            ],
+            [
+              -85.386,
+              32.844
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "atlanta_georgia",
+        "name": "Atlanta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -98.212,
+              29.931
+            ],
+            [
+              -98.212,
+              30.67
+            ],
+            [
+              -97.234,
+              30.67
+            ],
+            [
+              -97.234,
+              29.931
+            ],
+            [
+              -98.212,
+              29.931
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "austin_texas",
+        "name": "Austin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.191,
+              42.228
+            ],
+            [
+              -71.191,
+              42.42
+            ],
+            [
+              -70.923,
+              42.42
+            ],
+            [
+              -70.923,
+              42.228
+            ],
+            [
+              -71.191,
+              42.228
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "boston_massachusetts",
+        "name": "Boston"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -74.057,
+              40.551
+            ],
+            [
+              -74.057,
+              40.739
+            ],
+            [
+              -73.833,
+              40.739
+            ],
+            [
+              -73.833,
+              40.551
+            ],
+            [
+              -74.057,
+              40.551
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "brooklyn_new-york",
+        "name": "Brooklyn"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -114.612,
+              50.71
+            ],
+            [
+              -114.612,
+              51.353
+            ],
+            [
+              -113.478,
+              51.353
+            ],
+            [
+              -113.478,
+              50.71
+            ],
+            [
+              -114.612,
+              50.71
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "calgary_canada",
+        "name": "Calgary"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -88.505,
+              41.339
+            ],
+            [
+              -88.505,
+              42.297
+            ],
+            [
+              -87.066,
+              42.297
+            ],
+            [
+              -87.066,
+              41.339
+            ],
+            [
+              -88.505,
+              41.339
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "chicago_illinois",
+        "name": "Chicago"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -82.485,
+              40.73
+            ],
+            [
+              -82.485,
+              41.918
+            ],
+            [
+              -80.798,
+              41.918
+            ],
+            [
+              -80.798,
+              40.73
+            ],
+            [
+              -82.485,
+              40.73
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cleveland_ohio",
+        "name": "Cleveland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -97.789,
+              32.166
+            ],
+            [
+              -97.789,
+              33.431
+            ],
+            [
+              -96.113,
+              33.431
+            ],
+            [
+              -96.113,
+              32.166
+            ],
+            [
+              -97.789,
+              32.166
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dallas_texas",
+        "name": "Dallas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -77.599,
+              38.539
+            ],
+            [
+              -77.599,
+              39.631
+            ],
+            [
+              -76.058,
+              39.631
+            ],
+            [
+              -76.058,
+              38.539
+            ],
+            [
+              -77.599,
+              38.539
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dc-baltimore_maryland",
+        "name": "DC/Baltimore"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -105.746,
+              39.323
+            ],
+            [
+              -105.746,
+              40.313
+            ],
+            [
+              -104.334,
+              40.313
+            ],
+            [
+              -104.334,
+              39.323
+            ],
+            [
+              -105.746,
+              39.323
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "denver-boulder_colorado",
+        "name": "Denver/Boulder"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -84.158,
+              41.723
+            ],
+            [
+              -84.158,
+              43.168
+            ],
+            [
+              -82.375,
+              43.168
+            ],
+            [
+              -82.375,
+              41.723
+            ],
+            [
+              -84.158,
+              41.723
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "detroit_michigan",
+        "name": "Detroit"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -114.529,
+              52.941
+            ],
+            [
+              -114.529,
+              54.213
+            ],
+            [
+              -112.43,
+              54.213
+            ],
+            [
+              -112.43,
+              52.941
+            ],
+            [
+              -114.529,
+              52.941
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "edmonton_canada",
+        "name": "Edmonton"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -76.663,
+              36.718
+            ],
+            [
+              -76.663,
+              37.208
+            ],
+            [
+              -75.918,
+              37.208
+            ],
+            [
+              -75.918,
+              36.718
+            ],
+            [
+              -76.663,
+              36.718
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hampton-roads_virginia",
+        "name": "Hampton Roads"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -158.35,
+              21.192
+            ],
+            [
+              -158.35,
+              21.781
+            ],
+            [
+              -157.592,
+              21.781
+            ],
+            [
+              -157.592,
+              21.192
+            ],
+            [
+              -158.35,
+              21.192
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "honolulu_hawaii",
+        "name": "Honolulu"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -96.064,
+              28.856
+            ],
+            [
+              -96.064,
+              30.261
+            ],
+            [
+              -94.378,
+              30.261
+            ],
+            [
+              -94.378,
+              28.856
+            ],
+            [
+              -96.064,
+              28.856
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "houston_texas",
+        "name": "Houston"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -95.946,
+              38.599
+            ],
+            [
+              -95.946,
+              39.419
+            ],
+            [
+              -94.048,
+              39.419
+            ],
+            [
+              -94.048,
+              38.599
+            ],
+            [
+              -95.946,
+              38.599
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "kansas-city-lawrence-topeka_kansas",
+        "name": "Kansas City/Lawrence/Topeka"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -82.462,
+              23.032
+            ],
+            [
+              -82.462,
+              23.184
+            ],
+            [
+              -82.278,
+              23.184
+            ],
+            [
+              -82.278,
+              23.032
+            ],
+            [
+              -82.462,
+              23.032
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "la-habana_cuba",
+        "name": "La Habana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -115.581,
+              35.757
+            ],
+            [
+              -115.581,
+              36.615
+            ],
+            [
+              -114.211,
+              36.615
+            ],
+            [
+              -114.211,
+              35.757
+            ],
+            [
+              -115.581,
+              35.757
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "las-vegas_nevada",
+        "name": "Las Vegas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -119.437,
+              33.298
+            ],
+            [
+              -119.437,
+              34.583
+            ],
+            [
+              -116.724,
+              34.583
+            ],
+            [
+              -116.724,
+              33.298
+            ],
+            [
+              -119.437,
+              33.298
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "los-angeles_california",
+        "name": "Los Angeles"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -99.597,
+              18.992
+            ],
+            [
+              -99.597,
+              19.921
+            ],
+            [
+              -98.606,
+              19.921
+            ],
+            [
+              -98.606,
+              18.992
+            ],
+            [
+              -99.597,
+              18.992
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "mexico-city_mexico",
+        "name": "Mexico City"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -80.683,
+              25.291
+            ],
+            [
+              -80.683,
+              26.912
+            ],
+            [
+              -79.774,
+              26.912
+            ],
+            [
+              -79.774,
+              25.291
+            ],
+            [
+              -80.683,
+              25.291
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "miami_florida",
+        "name": "Miami"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -94.013,
+              44.471
+            ],
+            [
+              -94.013,
+              45.415
+            ],
+            [
+              -92.543,
+              45.415
+            ],
+            [
+              -92.543,
+              44.471
+            ],
+            [
+              -94.013,
+              44.471
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "minneapolis-saint-paul_minnesota",
+        "name": "Minneapolis/Saint Paul"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -74.734,
+              44.968
+            ],
+            [
+              -74.734,
+              46.057
+            ],
+            [
+              -72.723,
+              46.057
+            ],
+            [
+              -72.723,
+              44.968
+            ],
+            [
+              -74.734,
+              44.968
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "montreal_canada",
+        "name": "Montreal"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -87.743,
+              35.408
+            ],
+            [
+              -87.743,
+              36.652
+            ],
+            [
+              -85.778,
+              36.652
+            ],
+            [
+              -85.778,
+              35.408
+            ],
+            [
+              -87.743,
+              35.408
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "nashville_tennessee",
+        "name": "Nashville"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -90.653,
+              28.887
+            ],
+            [
+              -90.653,
+              30.51
+            ],
+            [
+              -89.11,
+              30.51
+            ],
+            [
+              -89.11,
+              28.887
+            ],
+            [
+              -90.653,
+              28.887
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "new-orleans_louisiana",
+        "name": "New Orleans"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -74.501,
+              40.345
+            ],
+            [
+              -74.501,
+              41.097
+            ],
+            [
+              -73.226,
+              41.097
+            ],
+            [
+              -73.226,
+              40.345
+            ],
+            [
+              -74.501,
+              40.345
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "new-york_new-york",
+        "name": "New York"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -76.361,
+              44.927
+            ],
+            [
+              -76.361,
+              45.598
+            ],
+            [
+              -75.052,
+              45.598
+            ],
+            [
+              -75.052,
+              44.927
+            ],
+            [
+              -76.361,
+              44.927
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "ottawa_canada",
+        "name": "Ottawa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -75.572,
+              39.641
+            ],
+            [
+              -75.572,
+              40.308
+            ],
+            [
+              -74.641,
+              40.308
+            ],
+            [
+              -74.641,
+              39.641
+            ],
+            [
+              -75.572,
+              39.641
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "philadelphia_pennsylvania",
+        "name": "Philadelphia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -112.821,
+              32.796
+            ],
+            [
+              -112.821,
+              34.07
+            ],
+            [
+              -111.211,
+              34.07
+            ],
+            [
+              -111.211,
+              32.796
+            ],
+            [
+              -112.821,
+              32.796
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "phoenix_arizona",
+        "name": "Phoenix"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -80.711,
+              40.023
+            ],
+            [
+              -80.711,
+              40.88
+            ],
+            [
+              -79.249,
+              40.88
+            ],
+            [
+              -79.249,
+              40.023
+            ],
+            [
+              -80.711,
+              40.023
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "pittsburgh_pennsylvania",
+        "name": "Pittsburgh"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -72.518,
+              18.456
+            ],
+            [
+              -72.518,
+              18.683
+            ],
+            [
+              -72.112,
+              18.683
+            ],
+            [
+              -72.112,
+              18.456
+            ],
+            [
+              -72.518,
+              18.456
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "port-au-prince_haiti",
+        "name": "Port au Prince"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -123.521,
+              45.096
+            ],
+            [
+              -123.521,
+              45.897
+            ],
+            [
+              -122.11,
+              45.897
+            ],
+            [
+              -122.11,
+              45.096
+            ],
+            [
+              -123.521,
+              45.096
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "portland_oregon",
+        "name": "Portland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -79.26446190712878,
+              35.51924621969106
+            ],
+            [
+              -78.254921645725,
+              35.51924621969106
+            ],
+            [
+              -78.254921645725,
+              36.243823619688065
+            ],
+            [
+              -79.26446190712878,
+              36.243823619688065
+            ],
+            [
+              -79.26446190712878,
+              35.51924621969106
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "raleigh_north-carolina",
+        "name": "Raleigh"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -91.01,
+              38.069
+            ],
+            [
+              -91.01,
+              39.151
+            ],
+            [
+              -89.533,
+              39.151
+            ],
+            [
+              -89.533,
+              38.069
+            ],
+            [
+              -91.01,
+              38.069
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "saint-louis_missouri",
+        "name": "Saint Louis"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -98.951,
+              29.109
+            ],
+            [
+              -98.951,
+              29.951
+            ],
+            [
+              -97.88,
+              29.951
+            ],
+            [
+              -97.88,
+              29.109
+            ],
+            [
+              -98.951,
+              29.109
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-antonio_texas",
+        "name": "San Antonio"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -117.376,
+              32.312
+            ],
+            [
+              -117.376,
+              33.078
+            ],
+            [
+              -116.588,
+              33.078
+            ],
+            [
+              -116.588,
+              32.312
+            ],
+            [
+              -117.376,
+              32.312
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-diego-tijuana_mexico",
+        "name": "San Diego/Tijuana"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -117.288,
+              32.558
+            ],
+            [
+              -117.288,
+              32.91
+            ],
+            [
+              -116.918,
+              32.91
+            ],
+            [
+              -116.918,
+              32.558
+            ],
+            [
+              -117.288,
+              32.558
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-diego_california",
+        "name": "San Diego"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -123.64,
+              36.791
+            ],
+            [
+              -123.64,
+              38.719
+            ],
+            [
+              -121.025,
+              38.719
+            ],
+            [
+              -121.025,
+              36.791
+            ],
+            [
+              -123.64,
+              36.791
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-francisco-bay_california",
+        "name": "San Francisco Bay"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.737,
+              37.449
+            ],
+            [
+              -122.737,
+              37.955
+            ],
+            [
+              -122.011,
+              37.955
+            ],
+            [
+              -122.011,
+              37.449
+            ],
+            [
+              -122.737,
+              37.449
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-francisco_california",
+        "name": "San Francisco"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -122.046,
+              37.125
+            ],
+            [
+              -122.046,
+              37.469
+            ],
+            [
+              -121.589,
+              37.469
+            ],
+            [
+              -121.589,
+              37.125
+            ],
+            [
+              -122.046,
+              37.125
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "san-jose_california",
+        "name": "San Jose"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -123.931,
+              46.608
+            ],
+            [
+              -123.931,
+              48.528
+            ],
+            [
+              -121.335,
+              48.528
+            ],
+            [
+              -121.335,
+              46.608
+            ],
+            [
+              -123.931,
+              46.608
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "seattle_washington",
+        "name": "Seattle"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -82.935,
+              27.279
+            ],
+            [
+              -82.935,
+              28.376
+            ],
+            [
+              -82.012,
+              28.376
+            ],
+            [
+              -82.012,
+              27.279
+            ],
+            [
+              -82.935,
+              27.279
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "tampa_florida",
+        "name": "Tampa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -80.161,
+              43.201
+            ],
+            [
+              -80.161,
+              44.182
+            ],
+            [
+              -78.717,
+              44.182
+            ],
+            [
+              -78.717,
+              43.201
+            ],
+            [
+              -80.161,
+              43.201
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "toronto_canada",
+        "name": "Toronto"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -123.44,
+              49.0
+            ],
+            [
+              -123.44,
+              49.48
+            ],
+            [
+              -122.07,
+              49.48
+            ],
+            [
+              -122.07,
+              49.0
+            ],
+            [
+              -123.44,
+              49.0
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "vancouver_canada",
+        "name": "Vancouver"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -124.063,
+              48.054
+            ],
+            [
+              -124.063,
+              48.871
+            ],
+            [
+              -122.568,
+              48.871
+            ],
+            [
+              -122.568,
+              48.054
+            ],
+            [
+              -124.063,
+              48.054
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "victoria_canada",
+        "name": "Victoria"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.068,
+              56.08
+            ],
+            [
+              10.068,
+              56.252
+            ],
+            [
+              10.356,
+              56.252
+            ],
+            [
+              10.356,
+              56.08
+            ],
+            [
+              10.068,
+              56.08
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "aarhus_denmark",
+        "name": "Aarhus"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.552,
+              57.532
+            ],
+            [
+              11.552,
+              57.803
+            ],
+            [
+              12.31,
+              57.803
+            ],
+            [
+              12.31,
+              57.532
+            ],
+            [
+              11.552,
+              57.532
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "gothenburg_sweden",
+        "name": "Gothenburg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              24.34,
+              60.052
+            ],
+            [
+              24.34,
+              60.68
+            ],
+            [
+              25.381,
+              60.68
+            ],
+            [
+              25.381,
+              60.052
+            ],
+            [
+              24.34,
+              60.052
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "helsinki_finland",
+        "name": "Helsinki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.691,
+              58.938
+            ],
+            [
+              9.691,
+              60.424
+            ],
+            [
+              11.493,
+              60.424
+            ],
+            [
+              11.493,
+              58.938
+            ],
+            [
+              9.691,
+              58.938
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "oslo_norway",
+        "name": "Oslo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -22.826,
+              63.771
+            ],
+            [
+              -22.826,
+              64.297
+            ],
+            [
+              -21.14,
+              64.297
+            ],
+            [
+              -21.14,
+              63.771
+            ],
+            [
+              -22.826,
+              63.771
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "reykjavik_iceland",
+        "name": "Reykjavik"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              16.858,
+              58.718
+            ],
+            [
+              16.858,
+              60.249
+            ],
+            [
+              19.526,
+              60.249
+            ],
+            [
+              19.526,
+              58.718
+            ],
+            [
+              16.858,
+              58.718
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "stockholm_sweden",
+        "name": "Stockholm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              138.417,
+              -35.261
+            ],
+            [
+              138.417,
+              -34.57
+            ],
+            [
+              138.854,
+              -34.57
+            ],
+            [
+              138.854,
+              -35.261
+            ],
+            [
+              138.417,
+              -35.261
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "adelaide_australia",
+        "name": "Adelaide"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              174.223,
+              -37.348
+            ],
+            [
+              174.223,
+              -36.41
+            ],
+            [
+              175.314,
+              -36.41
+            ],
+            [
+              175.314,
+              -37.348
+            ],
+            [
+              174.223,
+              -37.348
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "auckland_new-zealand",
+        "name": "Auckland"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              113.055,
+              -9.517
+            ],
+            [
+              113.055,
+              -6.995
+            ],
+            [
+              117.188,
+              -6.995
+            ],
+            [
+              117.188,
+              -9.517
+            ],
+            [
+              113.055,
+              -9.517
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bali_indonesia",
+        "name": "Bali"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              107.474,
+              -7.007
+            ],
+            [
+              107.474,
+              -6.773
+            ],
+            [
+              107.745,
+              -6.773
+            ],
+            [
+              107.745,
+              -7.007
+            ],
+            [
+              107.474,
+              -7.007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bandung_indonesia",
+        "name": "Bandung"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              152.7,
+              -27.723
+            ],
+            [
+              152.7,
+              -27.0
+            ],
+            [
+              153.349,
+              -27.0
+            ],
+            [
+              153.349,
+              -27.723
+            ],
+            [
+              152.7,
+              -27.723
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "brisbane_australia",
+        "name": "Brisbane"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              106.435,
+              -6.615
+            ],
+            [
+              106.435,
+              -5.881
+            ],
+            [
+              107.16,
+              -5.881
+            ],
+            [
+              107.16,
+              -6.615
+            ],
+            [
+              106.435,
+              -6.615
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "jakarta_indonesia",
+        "name": "Jakarta"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              144.266,
+              -38.552
+            ],
+            [
+              144.266,
+              -37.365
+            ],
+            [
+              145.81,
+              -37.365
+            ],
+            [
+              145.81,
+              -38.552
+            ],
+            [
+              144.266,
+              -38.552
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "melbourne_australia",
+        "name": "Melbourne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              115.439,
+              -32.499
+            ],
+            [
+              115.439,
+              -31.705
+            ],
+            [
+              116.208,
+              -31.705
+            ],
+            [
+              116.208,
+              -32.499
+            ],
+            [
+              115.439,
+              -32.499
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "perth_australia",
+        "name": "Perth"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              150.628,
+              -34.189
+            ],
+            [
+              150.628,
+              -33.637
+            ],
+            [
+              151.647,
+              -33.637
+            ],
+            [
+              151.647,
+              -34.189
+            ],
+            [
+              150.628,
+              -34.189
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "sydney_australia",
+        "name": "Sydney"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -74.421,
+              4.291
+            ],
+            [
+              -74.421,
+              5.022
+            ],
+            [
+              -73.767,
+              5.022
+            ],
+            [
+              -73.767,
+              4.291
+            ],
+            [
+              -74.421,
+              4.291
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bogota_colombia",
+        "name": "Bogota"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -48.501,
+              -16.317
+            ],
+            [
+              -48.501,
+              -15.36
+            ],
+            [
+              -47.378,
+              -15.36
+            ],
+            [
+              -47.378,
+              -16.317
+            ],
+            [
+              -48.501,
+              -16.317
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "brasilia_brazil",
+        "name": "Brasilia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -59.258,
+              -35.139
+            ],
+            [
+              -59.258,
+              -34.219
+            ],
+            [
+              -57.833,
+              -34.219
+            ],
+            [
+              -57.833,
+              -35.139
+            ],
+            [
+              -59.258,
+              -35.139
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "buenos-aires_argentina",
+        "name": "Buenos Aires"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -67.11,
+              10.27
+            ],
+            [
+              -67.11,
+              10.645
+            ],
+            [
+              -66.663,
+              10.645
+            ],
+            [
+              -66.663,
+              10.27
+            ],
+            [
+              -67.11,
+              10.27
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "caracas_venezuela",
+        "name": "Caracas"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -77.294,
+              -12.358
+            ],
+            [
+              -77.294,
+              -11.644
+            ],
+            [
+              -76.701,
+              -11.644
+            ],
+            [
+              -76.701,
+              -12.358
+            ],
+            [
+              -77.294,
+              -12.358
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "lima_peru",
+        "name": "Lima"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -75.887,
+              6.01
+            ],
+            [
+              -75.887,
+              6.497
+            ],
+            [
+              -75.277,
+              6.497
+            ],
+            [
+              -75.277,
+              6.01
+            ],
+            [
+              -75.887,
+              6.01
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "medellin_colombia",
+        "name": "Medellin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -43.86,
+              -23.216
+            ],
+            [
+              -43.86,
+              -22.378
+            ],
+            [
+              -42.751,
+              -22.378
+            ],
+            [
+              -42.751,
+              -23.216
+            ],
+            [
+              -43.86,
+              -23.216
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "rio-de-janeiro_brazil",
+        "name": "Rio de Janeiro"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -71.043,
+              -33.824
+            ],
+            [
+              -71.043,
+              -33.151
+            ],
+            [
+              -70.353,
+              -33.151
+            ],
+            [
+              -70.353,
+              -33.824
+            ],
+            [
+              -71.043,
+              -33.824
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "santiago_chile",
+        "name": "Santiago"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -47.357,
+              -24.317
+            ],
+            [
+              -47.357,
+              -23.125
+            ],
+            [
+              -45.863,
+              -23.125
+            ],
+            [
+              -45.863,
+              -24.317
+            ],
+            [
+              -47.357,
+              -24.317
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "sao-paulo_brazil",
+        "name": "Sao Paulo"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -8.6,
+              43.2
+            ],
+            [
+              -8.6,
+              43.6
+            ],
+            [
+              -8.0,
+              43.6
+            ],
+            [
+              -8.0,
+              43.2
+            ],
+            [
+              -8.6,
+              43.2
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "acoruna_spain",
+        "name": "Acoruna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              22.949,
+              37.514
+            ],
+            [
+              22.949,
+              38.365
+            ],
+            [
+              24.421,
+              38.365
+            ],
+            [
+              24.421,
+              37.514
+            ],
+            [
+              22.949,
+              37.514
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "athens_greece",
+        "name": "Athens"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              1.898,
+              41.246
+            ],
+            [
+              1.898,
+              41.533
+            ],
+            [
+              2.312,
+              41.533
+            ],
+            [
+              2.312,
+              41.246
+            ],
+            [
+              1.898,
+              41.246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "barcelona_spain",
+        "name": "Barcelona"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.998,
+              44.337
+            ],
+            [
+              10.998,
+              44.668
+            ],
+            [
+              11.817,
+              44.668
+            ],
+            [
+              11.817,
+              44.337
+            ],
+            [
+              10.998,
+              44.337
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bologna_italy",
+        "name": "Bologna"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.982,
+              43.601
+            ],
+            [
+              10.982,
+              43.983
+            ],
+            [
+              11.504,
+              43.983
+            ],
+            [
+              11.504,
+              43.601
+            ],
+            [
+              10.982,
+              43.601
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "florence_italy",
+        "name": "Florence"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.444,
+              44.291
+            ],
+            [
+              8.444,
+              44.561
+            ],
+            [
+              9.114,
+              44.561
+            ],
+            [
+              9.114,
+              44.291
+            ],
+            [
+              8.444,
+              44.291
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "genoa_italy",
+        "name": "Genoa"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -9.634,
+              38.358
+            ],
+            [
+              -9.634,
+              39.15
+            ],
+            [
+              -8.458,
+              39.15
+            ],
+            [
+              -8.458,
+              38.358
+            ],
+            [
+              -9.634,
+              38.358
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "lisbon_portugal",
+        "name": "Lisbon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -4.293,
+              39.8
+            ],
+            [
+              -4.293,
+              41.03
+            ],
+            [
+              -3.057,
+              41.03
+            ],
+            [
+              -3.057,
+              39.8
+            ],
+            [
+              -4.293,
+              39.8
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "madrid_spain",
+        "name": "Madrid"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.86,
+              45.246
+            ],
+            [
+              8.86,
+              45.694
+            ],
+            [
+              9.47,
+              45.694
+            ],
+            [
+              9.47,
+              45.246
+            ],
+            [
+              8.86,
+              45.246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "milan_italy",
+        "name": "Milan"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              14.139,
+              40.792
+            ],
+            [
+              14.139,
+              40.916
+            ],
+            [
+              14.354,
+              40.916
+            ],
+            [
+              14.354,
+              40.792
+            ],
+            [
+              14.139,
+              40.792
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "naples_italy",
+        "name": "Naples"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -8.795,
+              40.981
+            ],
+            [
+              -8.795,
+              41.399
+            ],
+            [
+              -8.358,
+              41.399
+            ],
+            [
+              -8.358,
+              40.981
+            ],
+            [
+              -8.795,
+              40.981
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "porto_portugal",
+        "name": "Porto"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              12.109,
+              41.578
+            ],
+            [
+              12.109,
+              42.13
+            ],
+            [
+              12.845,
+              42.13
+            ],
+            [
+              12.845,
+              41.578
+            ],
+            [
+              12.109,
+              41.578
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "rome_italy",
+        "name": "Rome"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              22.902,
+              40.587
+            ],
+            [
+              22.902,
+              40.656
+            ],
+            [
+              22.991,
+              40.656
+            ],
+            [
+              22.991,
+              40.587
+            ],
+            [
+              22.902,
+              40.587
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "thessaloniki_greece",
+        "name": "Thessaloniki"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -0.436,
+              39.42
+            ],
+            [
+              -0.436,
+              39.504
+            ],
+            [
+              -0.285,
+              39.504
+            ],
+            [
+              -0.285,
+              39.42
+            ],
+            [
+              -0.436,
+              39.42
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "valencia_spain",
+        "name": "Valencia"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.629,
+              45.123
+            ],
+            [
+              11.629,
+              45.811
+            ],
+            [
+              12.735,
+              45.811
+            ],
+            [
+              12.735,
+              45.123
+            ],
+            [
+              11.629,
+              45.123
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "venice_italy",
+        "name": "Venice"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.465,
+              52.163
+            ],
+            [
+              4.465,
+              52.629
+            ],
+            [
+              5.347,
+              52.629
+            ],
+            [
+              5.347,
+              52.163
+            ],
+            [
+              4.465,
+              52.163
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "amsterdam_netherlands",
+        "name": "Amsterdam"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.192,
+              51.124
+            ],
+            [
+              4.192,
+              51.385
+            ],
+            [
+              4.52,
+              51.385
+            ],
+            [
+              4.52,
+              51.124
+            ],
+            [
+              4.192,
+              51.124
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "antwerp_belgium",
+        "name": "Antwerp"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -6.046,
+              54.532
+            ],
+            [
+              -6.046,
+              54.663
+            ],
+            [
+              -5.816,
+              54.663
+            ],
+            [
+              -5.816,
+              54.532
+            ],
+            [
+              -6.046,
+              54.532
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "belfast_ireland",
+        "name": "Belfast"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              12.26,
+              51.849
+            ],
+            [
+              12.26,
+              52.994
+            ],
+            [
+              14.699,
+              52.994
+            ],
+            [
+              14.699,
+              51.849
+            ],
+            [
+              12.26,
+              51.849
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "berlin_germany",
+        "name": "Berlin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              7.33,
+              46.885
+            ],
+            [
+              7.33,
+              47.023
+            ],
+            [
+              7.561,
+              47.023
+            ],
+            [
+              7.561,
+              46.885
+            ],
+            [
+              7.33,
+              46.885
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bern_switzerland",
+        "name": "Bern"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.536,
+              52.214
+            ],
+            [
+              -2.536,
+              52.794
+            ],
+            [
+              -1.267,
+              52.794
+            ],
+            [
+              -1.267,
+              52.214
+            ],
+            [
+              -2.536,
+              52.214
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "birmingham_england",
+        "name": "Birmingham"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -0.9,
+              44.569
+            ],
+            [
+              -0.9,
+              45.065
+            ],
+            [
+              -0.162,
+              45.065
+            ],
+            [
+              -0.162,
+              44.569
+            ],
+            [
+              -0.9,
+              44.569
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "bordeaux_france",
+        "name": "Bordeaux"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              3.981,
+              50.645
+            ],
+            [
+              3.981,
+              51.053
+            ],
+            [
+              4.761,
+              51.053
+            ],
+            [
+              4.761,
+              50.645
+            ],
+            [
+              3.981,
+              50.645
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "brussels_belgium",
+        "name": "Brussels"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -3.618,
+              51.236
+            ],
+            [
+              -3.618,
+              51.73
+            ],
+            [
+              -2.189,
+              51.73
+            ],
+            [
+              -2.189,
+              51.236
+            ],
+            [
+              -3.618,
+              51.236
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cardiff-newport-bristol-bath_england",
+        "name": "Cardiff/Newport/Bristol/Bath"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              6.844,
+              50.876
+            ],
+            [
+              6.844,
+              51.009
+            ],
+            [
+              7.105,
+              51.009
+            ],
+            [
+              7.105,
+              50.876
+            ],
+            [
+              6.844,
+              50.876
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "cologne_germany",
+        "name": "Cologne"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.894,
+              55.491
+            ],
+            [
+              11.894,
+              55.95
+            ],
+            [
+              13.147,
+              55.95
+            ],
+            [
+              13.147,
+              55.491
+            ],
+            [
+              11.894,
+              55.491
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "copenhagen_denmark",
+        "name": "Copenhagen"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              13.586,
+              50.978
+            ],
+            [
+              13.586,
+              51.18
+            ],
+            [
+              13.972,
+              51.18
+            ],
+            [
+              13.972,
+              50.978
+            ],
+            [
+              13.586,
+              50.978
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dresden_germany",
+        "name": "Dresden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -6.569,
+              53.178
+            ],
+            [
+              -6.569,
+              53.512
+            ],
+            [
+              -6.023,
+              53.512
+            ],
+            [
+              -6.023,
+              53.178
+            ],
+            [
+              -6.569,
+              53.178
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "dublin_ireland",
+        "name": "Dublin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              6.622,
+              51.116
+            ],
+            [
+              6.622,
+              51.361
+            ],
+            [
+              7.009,
+              51.361
+            ],
+            [
+              7.009,
+              51.116
+            ],
+            [
+              6.622,
+              51.116
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "duesseldorf_germany",
+        "name": "Duesseldorf"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -3.585,
+              55.783
+            ],
+            [
+              -3.585,
+              56.132
+            ],
+            [
+              -2.835,
+              56.132
+            ],
+            [
+              -2.835,
+              55.783
+            ],
+            [
+              -3.585,
+              55.783
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "edinburgh_scotland",
+        "name": "Edinburgh"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.471,
+              50.014
+            ],
+            [
+              8.471,
+              50.227
+            ],
+            [
+              8.8,
+              50.227
+            ],
+            [
+              8.8,
+              50.014
+            ],
+            [
+              8.471,
+              50.014
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "frankfurt_germany",
+        "name": "Frankfurt"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -4.613,
+              55.668
+            ],
+            [
+              -4.613,
+              56.034
+            ],
+            [
+              -3.935,
+              56.034
+            ],
+            [
+              -3.935,
+              55.668
+            ],
+            [
+              -4.613,
+              55.668
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "glasgow_scotland",
+        "name": "Glasgow"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              9.376,
+              53.159
+            ],
+            [
+              9.376,
+              53.833
+            ],
+            [
+              10.678,
+              53.833
+            ],
+            [
+              10.678,
+              53.159
+            ],
+            [
+              9.376,
+              53.159
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "hamburg_germany",
+        "name": "Hamburg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -3.201,
+              53.283
+            ],
+            [
+              -3.201,
+              53.514
+            ],
+            [
+              -2.74,
+              53.514
+            ],
+            [
+              -2.74,
+              53.283
+            ],
+            [
+              -3.201,
+              53.283
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "liverpool_england",
+        "name": "Liverpool"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -1.115,
+              50.941
+            ],
+            [
+              -1.115,
+              51.984
+            ],
+            [
+              0.895,
+              51.984
+            ],
+            [
+              0.895,
+              50.941
+            ],
+            [
+              -1.115,
+              50.941
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "london_england",
+        "name": "London"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              3.85,
+              44.176
+            ],
+            [
+              3.85,
+              46.451
+            ],
+            [
+              7.185,
+              46.451
+            ],
+            [
+              7.185,
+              44.176
+            ],
+            [
+              3.85,
+              44.176
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "lyon_france",
+        "name": "Lyon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -2.588,
+              53.237
+            ],
+            [
+              -2.588,
+              53.672
+            ],
+            [
+              -1.877,
+              53.672
+            ],
+            [
+              -1.877,
+              53.237
+            ],
+            [
+              -2.588,
+              53.237
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "manchester_england",
+        "name": "Manchester"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              4.905,
+              43.038
+            ],
+            [
+              4.905,
+              43.554
+            ],
+            [
+              5.776,
+              43.554
+            ],
+            [
+              5.776,
+              43.038
+            ],
+            [
+              4.905,
+              43.038
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "marseille_france",
+        "name": "Marseille"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              11.359,
+              48.061
+            ],
+            [
+              11.359,
+              48.248
+            ],
+            [
+              11.723,
+              48.248
+            ],
+            [
+              11.723,
+              48.061
+            ],
+            [
+              11.359,
+              48.061
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "munich_germany",
+        "name": "Munich"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              1.851,
+              48.531
+            ],
+            [
+              1.851,
+              49.178
+            ],
+            [
+              2.911,
+              49.178
+            ],
+            [
+              2.911,
+              48.531
+            ],
+            [
+              1.851,
+              48.531
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "paris_france",
+        "name": "Paris"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              10.691070556640625,
+              49.28214015975995
+            ],
+            [
+              11.4642333984375,
+              49.28214015975995
+            ],
+            [
+              11.4642333984375,
+              49.77594330087988
+            ],
+            [
+              10.691070556640625,
+              49.77594330087988
+            ],
+            [
+              10.691070556640625,
+              49.28214015975995
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "nuremberg_germany",
+        "name": "Nuremberg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              3.911,
+              51.737
+            ],
+            [
+              3.911,
+              52.109
+            ],
+            [
+              4.784,
+              52.109
+            ],
+            [
+              4.784,
+              51.737
+            ],
+            [
+              3.911,
+              51.737
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "rotterdam_netherlands",
+        "name": "Rotterdam"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -1.479,
+              50.877
+            ],
+            [
+              -1.479,
+              50.956
+            ],
+            [
+              -1.322,
+              50.956
+            ],
+            [
+              -1.322,
+              50.877
+            ],
+            [
+              -1.479,
+              50.877
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "southampton_england",
+        "name": "Southampton"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              7.449,
+              48.371
+            ],
+            [
+              7.449,
+              48.722
+            ],
+            [
+              8.078,
+              48.722
+            ],
+            [
+              8.078,
+              48.371
+            ],
+            [
+              7.449,
+              48.371
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "strasbourg_france",
+        "name": "Strasbourg"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              7.504,
+              44.943
+            ],
+            [
+              7.504,
+              45.174
+            ],
+            [
+              7.887,
+              45.174
+            ],
+            [
+              7.887,
+              44.943
+            ],
+            [
+              7.504,
+              44.943
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "turin_italy",
+        "name": "Turin"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              8.275,
+              47.225
+            ],
+            [
+              8.275,
+              47.533
+            ],
+            [
+              8.8,
+              47.533
+            ],
+            [
+              8.8,
+              47.225
+            ],
+            [
+              8.275,
+              47.225
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "zurich_switzerland",
+        "name": "Zurich"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -86.01,
+              38.06
+            ],
+            [
+              -85.41,
+              38.06
+            ],
+            [
+              -85.41,
+              38.38
+            ],
+            [
+              -86.01,
+              38.38
+            ],
+            [
+              -86.01,
+              38.06
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "id": "louisville_kentucky",
+        "name": "Louisville"
+      },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "salt_lake_city_utah",
+        "name": "Salt Lake City"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.34893798828124,
+              40.38839687388361
+            ],
+            [
+              -111.55242919921875,
+              40.38839687388361
+            ],
+            [
+              -111.55242919921875,
+              40.948788179193485
+            ],
+            [
+              -112.34893798828124,
+              40.948788179193485
+            ],
+            [
+              -112.34893798828124,
+              40.38839687388361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "us-nh",
+        "name": "New Hampshire"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-71.160328735999968, 45.245766500000073],
+            [-71.141725219999927, 45.252329407000033],
+            [-71.111029418999891, 45.287107646],
+            [-71.095242269999886, 45.300905253000039],
+            [-71.08555293799995, 45.304212545000055],
+            [-71.084951960999973, 45.304292578000101],
+            [-71.081073040788169, 45.251127135209117],
+            [-71.077166791414299, 45.197660337854302],
+            [-71.073260541141053, 45.144169127503233],
+            [-71.069329876972233, 45.09062908846164],
+            [-71.065448040594561, 45.037089049420047],
+            [-71.061517377325117, 44.983597838169658],
+            [-71.057635540947444, 44.930131040814842],
+            [-71.053729290674198, 44.876591001773306],
+            [-71.049823041300328, 44.823050962731713],
+            [-71.045916791027082, 44.76953533848507],
+            [-71.042010540753836, 44.716019713339051],
+            [-71.038104291379909, 44.662504088193089],
+            [-71.03419804110672, 44.608988463047126],
+            [-71.030291790833473, 44.555472837901107],
+            [-71.026385540560227, 44.501981627550038],
+            [-71.022479291186301, 44.448441588508501],
+            [-71.018573040913111, 44.394925963362482],
+            [-71.014666790639865, 44.341434752112093],
+            [-71.010760541265938, 44.287943540861704],
+            [-71.006878704888322, 44.234403501820111],
+            [-71.002948040719502, 44.180863462778575],
+            [-70.999041791345576, 44.127347838531875],
+            [-70.995184368863534, 44.07388104117706],
+            [-70.99122929079914, 44.020341002135524],
+            [-70.987323041425213, 43.966776549198357],
+            [-70.983441205047541, 43.913285337947968],
+            [-70.979510540878721, 43.859794126697579],
+            [-70.975604290605531, 43.806254088555306],
+            [-70.971746869022752, 43.752787291200491],
+            [-70.967791790958358, 43.699296079950102],
+            [-70.963909954580743, 43.645756040908509],
+            [-70.960003705206816, 43.592240415762546],
+            [-70.957830853211306, 43.562211119147833],
+            [-70.962371869266349, 43.531107603033433],
+            [-70.962176556303007, 43.516044126934901],
+            [-70.964666790739784, 43.501786313887237],
+            [-70.966571088085232, 43.496927916290304],
+            [-70.967596477995073, 43.490653501957524],
+            [-70.967742963167211, 43.481937681878492],
+            [-70.964788861117029, 43.467362486389618],
+            [-70.963592572139476, 43.45066326849502],
+            [-70.966571088085232, 43.439603697352709],
+            [-70.97640995455572, 43.415018736325578],
+            [-70.977777141701722, 43.40911053312459],
+            [-70.977948040769434, 43.402201353010014],
+            [-70.976849408273551, 43.394510923740143],
+            [-70.972625774659775, 43.38310955716031],
+            [-70.967425579826624, 43.374808775104839],
+            [-70.960711712675391, 43.366630064325989],
+            [-70.929754680833867, 43.340238463334401],
+            [-70.897479291436127, 43.304838071919448],
+            [-70.866668743867422, 43.271049010203626],
+            [-70.827996868860396, 43.252299009791443],
+            [-70.821942181386532, 43.247074400163399],
+            [-70.817059368994649, 43.23989666629808],
+            [-70.813592572439234, 43.225590025459269],
+            [-70.813250775203073, 43.216752135002992],
+            [-70.814569134557928, 43.208866392769778],
+            [-70.824627727887332, 43.178617369296148],
+            [-70.825897260350246, 43.167484557366379],
+            [-70.825116010295631, 43.161454282888826],
+            [-70.806414837674595, 43.136698423693304],
+            [-70.771942180587132, 43.107450377133148],
+            [-70.744089321999923, 43.083807684000078],
+            [-70.754505988999938, 43.058986721000053],
+            [-70.732492641999897, 43.063299872000073],
+            [-70.709543423999946, 43.065171617000033],
+            [-70.704213019999941, 43.05890534100007],
+            [-70.708485480999911, 43.04523346600007],
+            [-70.715891079999949, 43.032171942000048],
+            [-70.719715949999909, 43.027573960000041],
+            [-70.728382941999939, 43.011297919000071],
+            [-70.781809048999946, 42.949123440000051],
+            [-70.803293423999946, 42.913885809000078],
+            [-70.811879035999937, 42.893133856000077],
+            [-70.814281248980421, 42.877295447426945],
+            [-70.849969525073504, 42.87065838507641],
+            [-70.870916791376828, 42.874686704827525],
+            [-70.904510541028628, 42.885404477834356],
+            [-70.916424603013013, 42.886796079775252],
+            [-70.925555462914247, 42.886527525125189],
+            [-71.022503705081931, 42.854740416337108],
+            [-71.033465618843195, 42.848905454822841],
+            [-71.038641399780772, 42.845341001785755],
+            [-71.053363080441784, 42.831986510069385],
+            [-71.060760541166019, 42.82642010320518],
+            [-71.073797650441179, 42.819388852713359],
+            [-71.083319135369777, 42.81706951824367],
+            [-71.094500775090694, 42.817118346034817],
+            [-71.105975385155887, 42.818729673935309],
+            [-71.123016400286645, 42.819388852713359],
+            [-71.13292851024255, 42.8182169785307],
+            [-71.140985149744836, 42.815946470952838],
+            [-71.146307415854551, 42.813187681865998],
+            [-71.15162968106489, 42.809720885310583],
+            [-71.160736127070606, 42.801420103255111],
+            [-71.164862103303392, 42.796879088099388],
+            [-71.172723430741712, 42.786258971574227],
+            [-71.181805462851798, 42.767508971162044],
+            [-71.185858197397863, 42.760746275320344],
+            [-71.19620976017228, 42.752152524719236],
+            [-71.208026165674994, 42.748099791072491],
+            [-71.227557416141849, 42.743754087980733],
+            [-71.237860150225742, 42.740458188694447],
+            [-71.245477337808893, 42.736674009697765],
+            [-71.259075971179129, 42.723905455072668],
+            [-71.273651165768683, 42.71321209596141],
+            [-71.288397260325269, 42.704886900010422],
+            [-71.296307415554793, 42.702054869236804],
+            [-71.306317181092993, 42.700858580259251],
+            [-71.329559368869752, 42.7014445182499],
+            [-71.400506635073157, 42.703177916527579],
+            [-71.471453900377185, 42.704935727801569],
+            [-71.542449994371736, 42.706644713082994],
+            [-71.613397259675764, 42.708402525256304],
+            [-71.684344524979849, 42.710135924433359],
+            [-71.755340618974401, 42.711844907916145],
+            [-71.826336712968896, 42.713578307093201],
+            [-71.897259564377407, 42.715336119266453],
+            [-71.968206829681435, 42.717093932339083],
+            [-72.039178509780413, 42.718851744512392],
+            [-72.110125775084441, 42.720536314099604],
+            [-72.181073041287789, 42.722269713276603],
+            [-72.252020305692554, 42.724003111554339],
+            [-72.322967571895902, 42.725712095936444],
+            [-72.393963665890453, 42.727469908109754],
+            [-72.464910931194481, 42.729227721182383],
+            [-72.465057416366676, 42.729227721182383],
+            [-72.465179485844601, 42.729227721182383],
+            [-72.465301556221846, 42.729227721182383],
+            [-72.465399212703517, 42.729227721182383],
+            [-72.465521283080761, 42.729227721182383],
+            [-72.465643352558686, 42.729227721182383],
+            [-72.465789837730824, 42.729227721182383],
+            [-72.465887494212495, 42.729227721182383],
+            [-72.46598514979479, 42.729227721182383],
+            [-72.466131634966985, 42.729227721182383],
+            [-72.466229291448656, 42.729227721182383],
+            [-72.466375774822154, 42.729227721182383],
+            [-72.466449017408195, 42.729227721182383],
+            [-72.466571087785439, 42.729227721182383],
+            [-72.466717572058315, 42.729227721182383],
+            [-72.466815227640609, 42.72927654897353],
+            [-72.466766399849462, 42.729447447141922],
+            [-72.473309368832304, 42.758524596432949],
+            [-72.492791790608635, 42.779203307186833],
+            [-72.535662885333863, 42.812015806784018],
+            [-72.544110149863513, 42.823026549235863],
+            [-72.550018353064502, 42.832889830501244],
+            [-72.553875774647281, 42.844266783185446],
+            [-72.556170697020036, 42.859818540793015],
+            [-72.555462688652142, 42.877958189318974],
+            [-72.550531049368431, 42.889676939239337],
+            [-72.543280072017694, 42.900126158495368],
+            [-72.535662885333863, 42.914432799334179],
+            [-72.528729291323714, 42.957865416355844],
+            [-72.521893352895916, 42.975516783372825],
+            [-72.504657024801816, 42.982694518137464],
+            [-72.48053593138809, 42.989164244534209],
+            [-72.470965618668345, 43.005741392950881],
+            [-72.466766399849462, 43.051591001823226],
+            [-72.449334759691396, 43.107914243847233],
+            [-72.446917766941397, 43.130716977906161],
+            [-72.452899212728482, 43.15664471308304],
+            [-72.453118938688078, 43.168900572303528],
+            [-72.446917766941397, 43.209867368784046],
+            [-72.44000858772614, 43.215384946957727],
+            [-72.435345502193172, 43.220414244521749],
+            [-72.433245891884383, 43.226298032927843],
+            [-72.434295696589118, 43.232181822233258],
+            [-72.436688275443544, 43.235160338179014],
+            [-72.439032024708183, 43.237113463315666],
+            [-72.440106244207811, 43.239969907984857],
+            [-72.438446087616853, 43.252860532987199],
+            [-72.433685345602214, 43.263138853175519],
+            [-72.426092571914637, 43.272172057494458],
+            [-72.415887494312415, 43.281229673910275],
+            [-72.403680462883017, 43.300248228073258],
+            [-72.401263471032337, 43.322928893553581],
+            [-72.405316204679082, 43.360721861124944],
+            [-72.3978699161637, 43.53140057247839],
+            [-72.391766399999369, 43.557694517887683],
+            [-72.381658977979441, 43.572025571722747],
+            [-72.346991009727333, 43.596561704958674],
+            [-72.332879680952487, 43.613505064507081],
+            [-72.324823040550882, 43.633256040933531],
+            [-72.315936322303401, 43.674759946714119],
+            [-72.31251835263987, 43.709672057519413],
+            [-72.306317180893188, 43.720072447185657],
+            [-72.279266400224174, 43.736136900197778],
+            [-72.266302532635734, 43.749247252059035],
+            [-72.213543743648813, 43.784623227779718],
+            [-72.20299686881043, 43.800541197418283],
+            [-72.194549603381461, 43.82017010346749],
+            [-72.188885540934962, 43.841825377239331],
+            [-72.186834760216016, 43.863773619556866],
+            [-72.180755657947259, 43.884769712752018],
+            [-72.165985150394363, 43.90559490777872],
+            [-72.100579877159589, 43.973319518181199],
+            [-72.098455852955226, 43.980619322423763],
+            [-72.104949994146921, 43.986405455247564],
+            [-72.113592571639856, 43.992606626994188],
+            [-72.117938274731557, 44.000931822045914],
+            [-72.11188358815707, 44.016752135202864],
+            [-72.069525188836394, 44.072611510512786],
+            [-72.054803509974022, 44.104545103573628],
+            [-72.049237103109817, 44.14287518224387],
+            [-72.049676555928329, 44.230887877473549],
+            [-72.042254681308464, 44.281693541323875],
+            [-72.02008671303139, 44.317704282826355],
+            [-71.983367963160958, 44.339213072325379],
+            [-71.932391400242921, 44.34634197839955],
+            [-71.883441205047575, 44.344779478290263],
+            [-71.859442181111774, 44.347684752549242],
+            [-71.840496868635569, 44.35720623657852],
+            [-71.807269330115503, 44.387943541561185],
+            [-71.791497845649019, 44.398490416399568],
+            [-71.704095502305563, 44.438334166488573],
+            [-71.678021282855923, 44.446122252240116],
+            [-71.669085735917974, 44.454960142696393],
+            [-71.651824993928301, 44.476688658155012],
+            [-71.617669721080745, 44.497172056844931],
+            [-71.598284954886765, 44.515140807202442],
+            [-71.597381635354168, 44.532548033464934],
+            [-71.600555463363946, 44.550492369027609],
+            [-71.593475385080922, 44.569779477840598],
+            [-71.583465618643402, 44.574759946714153],
+            [-71.571112102941186, 44.574686705027375],
+            [-71.558929486306738, 44.576395689409537],
+            [-71.549383588381886, 44.586551939220612],
+            [-71.549969524573896, 44.596366392694847],
+            [-71.556585736142779, 44.606693541573634],
+            [-71.569256635185582, 44.620682799071915],
+            [-71.600116009646115, 44.678202330073475],
+            [-71.604022259919361, 44.692704282976251],
+            [-71.611004680821338, 44.710697447229393],
+            [-71.624896282737268, 44.724344908390776],
+            [-71.635003704757139, 44.740311704921226],
+            [-71.630706830355905, 44.765336118766868],
+            [-71.606219524911126, 44.801444518549658],
+            [-71.559246868748005, 44.849418149827727],
+            [-71.514617962748787, 44.895048032740476],
+            [-71.505706829706412, 44.91958416597646],
+            [-71.514129681239808, 44.93530682175242],
+            [-71.527850384987289, 44.950590024709868],
+            [-71.535125775334279, 44.97383221338589],
+            [-71.531756635260479, 45.000052916209086],
+            [-71.52157597065451, 45.009623228029511],
+            [-71.505848136999958, 45.013731075000052],
+            [-71.504080363999975, 45.013739319000123],
+            [-71.506612507999961, 45.037045390000046],
+            [-71.504752156999956, 45.052961731000082],
+            [-71.497259073999913, 45.066552633000057],
+            [-71.456589721999961, 45.110994365000053],
+            [-71.451215373999901, 45.121691386000052],
+            [-71.445996053999892, 45.140294902],
+            [-71.441603556999894, 45.150681865000124],
+            [-71.413026488999918, 45.186183574000083],
+            [-71.406566934999972, 45.20494211900008],
+            [-71.422689982999941, 45.21718943399999],
+            [-71.44904496299992, 45.226904603000051],
+            [-71.438813028999846, 45.233467510000125],
+            [-71.394888061999893, 45.241529033000106],
+            [-71.381245482999901, 45.250779114000025],
+            [-71.352099975999892, 45.278322653000103],
+            [-71.334323283999936, 45.28870961600002],
+            [-71.311533976999954, 45.294135641000096],
+            [-71.293395548999939, 45.292326966000118],
+            [-71.209369669999887, 45.254758199000023],
+            [-71.185133422999911, 45.248557027000018],
+            [-71.160328735999968, 45.245766500000073]
+          ]
+        ]
+
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "us-vt",
+        "name": "Vermont"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-73.351340859393133, 45.004633645426395],
+            [-73.299422973999896, 45.004902649000101],
+            [-73.199687459999979, 45.005419414000059],
+            [-73.099951944999873, 45.005884502000086],
+            [-73.000268106999897, 45.006349590000113],
+            [-72.900480916999896, 45.006866354000053],
+            [-72.800693725999878, 45.00733144200008],
+            [-72.700958211999875, 45.007796530000107],
+            [-72.6012743739999, 45.008313294000047],
+            [-72.501487182999966, 45.008830058000072],
+            [-72.401751668999879, 45.009295146000014],
+            [-72.301964477999945, 45.009760233000051],
+            [-72.202228963999858, 45.010328674000093],
+            [-72.102545125999882, 45.010793762000034],
+            [-72.00280961099989, 45.011258850000033],
+            [-71.903074096999973, 45.01177561499999],
+            [-71.803286905999869, 45.012240703000103],
+            [-71.703551391999952, 45.012757467000043],
+            [-71.603815877999864, 45.013274231000096],
+            [-71.505848136999958, 45.013731075000052],
+            [-71.52157597065451, 45.009623228029511],
+            [-71.531756635260479, 45.000052916209086],
+            [-71.535125775334279, 44.97383221338589],
+            [-71.527850384987289, 44.950590024709868],
+            [-71.514129681239808, 44.93530682175242],
+            [-71.505706829706412, 44.91958416597646],
+            [-71.514617962748787, 44.895048032740476],
+            [-71.559246868748005, 44.849418149827727],
+            [-71.606219524911126, 44.801444518549658],
+            [-71.630706830355905, 44.765336118766868],
+            [-71.635003704757139, 44.740311704921226],
+            [-71.624896282737268, 44.724344908390776],
+            [-71.611004680821338, 44.710697447229393],
+            [-71.604022259919361, 44.692704282976251],
+            [-71.600116009646115, 44.678202330073475],
+            [-71.569256635185582, 44.620682799071915],
+            [-71.556585736142779, 44.606693541573634],
+            [-71.549969524573896, 44.596366392694847],
+            [-71.549383588381886, 44.586551939220612],
+            [-71.558929486306738, 44.576395689409537],
+            [-71.571112102941186, 44.574686705027375],
+            [-71.583465618643402, 44.574759946714153],
+            [-71.593475385080922, 44.569779477840598],
+            [-71.600555463363946, 44.550492369027609],
+            [-71.597381635354168, 44.532548033464934],
+            [-71.598284954886765, 44.515140807202442],
+            [-71.617669721080745, 44.497172056844931],
+            [-71.651824993928301, 44.476688658155012],
+            [-71.669085735917974, 44.454960142696393],
+            [-71.678021282855923, 44.446122252240116],
+            [-71.704095502305563, 44.438334166488573],
+            [-71.791497845649019, 44.398490416399568],
+            [-71.807269330115503, 44.387943541561185],
+            [-71.840496868635569, 44.35720623657852],
+            [-71.859442181111774, 44.347684752549242],
+            [-71.883441205047575, 44.344779478290263],
+            [-71.932391400242921, 44.34634197839955],
+            [-71.983367963160958, 44.339213072325379],
+            [-72.02008671303139, 44.317704282826355],
+            [-72.042254681308464, 44.281693541323875],
+            [-72.049676555928329, 44.230887877473549],
+            [-72.049237103109817, 44.14287518224387],
+            [-72.054803509974022, 44.104545103573628],
+            [-72.069525188836394, 44.072611510512786],
+            [-72.11188358815707, 44.016752135202864],
+            [-72.117938274731557, 44.000931822045914],
+            [-72.113592571639856, 43.992606626994188],
+            [-72.104949994146921, 43.986405455247564],
+            [-72.098455852955226, 43.980619322423763],
+            [-72.100579877159589, 43.973319518181199],
+            [-72.165985150394363, 43.90559490777872],
+            [-72.180755657947259, 43.884769712752018],
+            [-72.186834760216016, 43.863773619556866],
+            [-72.188885540934962, 43.841825377239331],
+            [-72.194549603381461, 43.82017010346749],
+            [-72.20299686881043, 43.800541197418283],
+            [-72.213543743648813, 43.784623227779718],
+            [-72.266302532635734, 43.749247252059035],
+            [-72.279266400224174, 43.736136900197778],
+            [-72.306317180893188, 43.720072447185657],
+            [-72.31251835263987, 43.709672057519413],
+            [-72.315936322303401, 43.674759946714119],
+            [-72.324823040550882, 43.633256040933531],
+            [-72.332879680952487, 43.613505064507081],
+            [-72.346991009727333, 43.596561704958674],
+            [-72.381658977979441, 43.572025571722747],
+            [-72.391766399999369, 43.557694517887683],
+            [-72.3978699161637, 43.53140057247839],
+            [-72.405316204679082, 43.360721861124944],
+            [-72.401263471032337, 43.322928893553581],
+            [-72.403680462883017, 43.300248228073258],
+            [-72.415887494312415, 43.281229673910275],
+            [-72.426092571914637, 43.272172057494458],
+            [-72.433685345602214, 43.263138853175519],
+            [-72.438446087616853, 43.252860532987199],
+            [-72.440106244207811, 43.239969907984857],
+            [-72.439032024708183, 43.237113463315666],
+            [-72.436688275443544, 43.235160338179014],
+            [-72.434295696589118, 43.232181822233258],
+            [-72.433245891884383, 43.226298032927843],
+            [-72.435345502193172, 43.220414244521749],
+            [-72.44000858772614, 43.215384946957727],
+            [-72.446917766941397, 43.209867368784046],
+            [-72.453118938688078, 43.168900572303528],
+            [-72.452899212728482, 43.15664471308304],
+            [-72.446917766941397, 43.130716977906161],
+            [-72.449334759691396, 43.107914243847233],
+            [-72.466766399849462, 43.051591001823226],
+            [-72.470965618668345, 43.005741392950881],
+            [-72.48053593138809, 42.989164244534209],
+            [-72.504657024801816, 42.982694518137464],
+            [-72.521893352895916, 42.975516783372825],
+            [-72.528729291323714, 42.957865416355844],
+            [-72.535662885333863, 42.914432799334179],
+            [-72.543280072017694, 42.900126158495368],
+            [-72.550531049368431, 42.889676939239337],
+            [-72.555462688652142, 42.877958189318974],
+            [-72.556170697020036, 42.859818540793015],
+            [-72.553875774647281, 42.844266783185446],
+            [-72.550018353064502, 42.832889830501244],
+            [-72.544110149863513, 42.823026549235863],
+            [-72.535662885333863, 42.812015806784018],
+            [-72.492791790608635, 42.779203307186833],
+            [-72.473309368832304, 42.758524596432949],
+            [-72.466766399849462, 42.729447447141922],
+            [-72.466815227640609, 42.72927654897353],
+            [-72.515960735799297, 42.730619322223902],
+            [-72.565106243957985, 42.732010924164797],
+            [-72.614276166012246, 42.733353697415168],
+            [-72.663397260275303, 42.73472088546049],
+            [-72.712567181430245, 42.736136900397639],
+            [-72.761737102585187, 42.737504088442904],
+            [-72.810858196848301, 42.738846860793956],
+            [-72.860028118902562, 42.740238462734851],
+            [-72.90914921316562, 42.741581235985223],
+            [-72.951592525574597, 42.741261144785994],
+            [-73.000282572982371, 42.741261144785994],
+            [-73.049946420690731, 42.742234945985956],
+            [-73.097662666898543, 42.744182548385879],
+            [-73.147326514606959, 42.744182548385879],
+            [-73.205270537305466, 42.745345967142669],
+            [-73.265515691296116, 42.745601244202021],
+            [-73.276237286421633, 42.746111796522143],
+            [-73.288125857122623, 42.797435961800147],
+            [-73.280145305661335, 42.812113463265689],
+            [-73.269256635385375, 42.847465025090798],
+            [-73.266522260194165, 42.863749204961834],
+            [-73.266082805577014, 42.874613463140804],
+            [-73.265887494412311, 42.881986509969408],
+            [-73.265301556421662, 42.902787291100594],
+            [-73.264373822094228, 42.93511151008812],
+            [-73.263250774803396, 42.977006040896072],
+            [-73.26185917376182, 43.026639830563681],
+            [-73.26027225975696, 43.082035338260255],
+            [-73.258612103166001, 43.141190611057823],
+            [-73.256854290992749, 43.202323423786936],
+            [-73.255145305711267, 43.26348065041168],
+            [-73.253460736124055, 43.322684751899772],
+            [-73.251922649910341, 43.378031431805084],
+            [-73.250506634973192, 43.427640807577177],
+            [-73.249334759891269, 43.469584166176332],
+            [-73.248407024664459, 43.501883971268228],
+            [-73.247869916263596, 43.522684752399357],
+            [-73.247625774609787, 43.530106627019222],
+            [-73.247039838417777, 43.552006041545553],
+            [-73.25451054082879, 43.560038268051585],
+            [-73.264032024858068, 43.566654477821885],
+            [-73.269085736317663, 43.569217954844703],
+            [-73.277215619305366, 43.577909361028162],
+            [-73.291424602763186, 43.613895689534445],
+            [-73.295819135444731, 43.619462096398593],
+            [-73.301434369200763, 43.623807799490351],
+            [-73.308856243820571, 43.626273619132178],
+            [-73.324676556078202, 43.628861510050626],
+            [-73.33234257235182, 43.629056822114649],
+            [-73.339422649735468, 43.628592955400563],
+            [-73.346038861304407, 43.627299009941339],
+            [-73.351971478400969, 43.625101744050198],
+            [-73.357196088029013, 43.621781431767658],
+            [-73.361297650366282, 43.617191587921411],
+            [-73.364276166312038, 43.612015806983891],
+            [-73.368914837949376, 43.594608579822079],
+            [-73.371820111309091, 43.589115416443292],
+            [-73.376043744023548, 43.584623228179396],
+            [-73.38075565824704, 43.580692564010576],
+            [-73.391717572008304, 43.574759946914014],
+            [-73.402825970941819, 43.571097838294577],
+            [-73.406707806420116, 43.570341002135535],
+            [-73.408612102866243, 43.570804868849621],
+            [-73.410809368757327, 43.573099791222376],
+            [-73.417938274831499, 43.583133971555526],
+            [-73.423504680796384, 43.594608579822079],
+            [-73.425042767010098, 43.606888852938198],
+            [-73.425360150350627, 43.628495298918892],
+            [-73.423577924281744, 43.639701353434702],
+            [-73.420721477813913, 43.648490416099776],
+            [-73.368255658272005, 43.747660338054118],
+            [-73.365350384912347, 43.758524596233087],
+            [-73.363397259775695, 43.779496275532665],
+            [-73.363909955180247, 43.78989666609823],
+            [-73.365448041393961, 43.797904477809368],
+            [-73.368084760103557, 43.802543150346082],
+            [-73.386444134589112, 43.826761900241479],
+            [-73.387567180980625, 43.832767759924138],
+            [-73.386590618861931, 43.838822447398002],
+            [-73.380731244351409, 43.854447446692291],
+            [-73.378387494187507, 43.867557799452868],
+            [-73.378582806251472, 43.87534588520441],
+            [-73.379559369269487, 43.881669127328337],
+            [-73.381585736092859, 43.886478697134123],
+            [-73.384588665934189, 43.890677915953063],
+            [-73.392108197035668, 43.899076352691509],
+            [-73.396356243645698, 43.907523619019798],
+            [-73.400750775427923, 43.920121275476447],
+            [-73.410125775184383, 43.96370037677093],
+            [-73.411126752097914, 43.978934751937231],
+            [-73.409979290911508, 44.006205260364425],
+            [-73.411297650266306, 44.014896666547884],
+            [-73.413690228221469, 44.021488463321873],
+            [-73.41676639974952, 44.025834166413631],
+            [-73.429559369169567, 44.038334166388665],
+            [-73.434149213015758, 44.043924986249067],
+            [-73.438543743898663, 44.052762876705344],
+            [-73.438543743898663, 44.05967205681992],
+            [-73.436151165943556, 44.065775572084988],
+            [-73.42438358823199, 44.080375182368755],
+            [-73.389764446871709, 44.160843931702061],
+            [-73.385858196598463, 44.174296079900159],
+            [-73.382879680652707, 44.195487486058596],
+            [-73.380877727724965, 44.201127135508898],
+            [-73.377459759860017, 44.206083188688183],
+            [-73.373309368832281, 44.210697447329323],
+            [-73.36320194681241, 44.217948423780683],
+            [-73.352166791364311, 44.223978697358973],
+            [-73.340496869235096, 44.228983580128101],
+            [-73.329754681433371, 44.234769712951845],
+            [-73.324627728286998, 44.241947446817221],
+            [-73.320770305804956, 44.252689635518266],
+            [-73.317425579626786, 44.274100768535618],
+            [-73.317059369394372, 44.293705259789874],
+            [-73.318817180668361, 44.303837095705376],
+            [-73.33268436868866, 44.348661313768616],
+            [-73.33327030577999, 44.356717955069541],
+            [-73.33268436868866, 44.363846861143713],
+            [-73.330218549046776, 44.369803893035225],
+            [-73.32692264976049, 44.375443540686831],
+            [-73.307879680802614, 44.401737486096067],
+            [-73.301629681264785, 44.413700376770919],
+            [-73.29664921329055, 44.430301939083222],
+            [-73.293670697344794, 44.444974791053767],
+            [-73.293133588044668, 44.45434979081017],
+            [-73.293621868654327, 44.463749205361523],
+            [-73.294720502049529, 44.469681822458142],
+            [-73.300457806182806, 44.484305845738163],
+            [-73.310223430966573, 44.500174985786941],
+            [-73.352801556246789, 44.552030455241265],
+            [-73.366717572058292, 44.5739786975588],
+            [-73.369793743586399, 44.582523619469441],
+            [-73.377313274687879, 44.618680846144116],
+            [-73.378729291423667, 44.640677916252798],
+            [-73.377801556196857, 44.646439635180968],
+            [-73.376092571814752, 44.652469907859938],
+            [-73.359832805839289, 44.690702330048452],
+            [-73.357928510292481, 44.702396666073241],
+            [-73.356463665765546, 44.724906432485852],
+            [-73.353118938688056, 44.737015807433522],
+            [-73.343841596312586, 44.757425963537344],
+            [-73.340643352608652, 44.766605650330462],
+            [-73.337249798639277, 44.780887877273699],
+            [-73.336468548584662, 44.789359557497562],
+            [-73.336737103234725, 44.796171080231147],
+            [-73.33778690793946, 44.801151549104702],
+            [-73.340008587726118, 44.805668150364795],
+            [-73.343060346257971, 44.810184752524265],
+            [-73.361785930975941, 44.82512615824561],
+            [-73.366449017408229, 44.829813658573471],
+            [-73.370916790877175, 44.835502134915544],
+            [-73.375604291205036, 44.844144713307855],
+            [-73.377264446896675, 44.850809751768622],
+            [-73.377801556196857, 44.8569620957241],
+            [-73.37623905608757, 44.868583189162848],
+            [-73.374530071705408, 44.874564634949934],
+            [-73.368914837949376, 44.887089048820542],
+            [-73.365179485844578, 44.892948424230383],
+            [-73.348553509636758, 44.912674985861884],
+            [-73.344207805645681, 44.919242368740299],
+            [-73.340496869235096, 44.927494322105247],
+            [-73.33685917361197, 44.940677916552602],
+            [-73.336419720793458, 44.948588071782069],
+            [-73.337298627329801, 44.955301938933303],
+            [-73.342401165681224, 44.969925963112701],
+            [-73.347430463245246, 44.992997251821691],
+            [-73.351340859393133, 45.004633645426395]
+          ]
+        ]
+
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "id": "us-ca",
+        "name": "California"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.30755615234375,
+              42.0227732629691
+            ],
+            [
+              -124.60693359374999,
+              40.463666324587685
+            ],
+            [
+              -123.78295898437501,
+              38.929502416386605
+            ],
+            [
+              -123.06060791015624,
+              37.70663997801684
+            ],
+            [
+              -120.91003417968749,
+              34.49750272138159
+            ],
+            [
+              -119.72900390625001,
+              33.114549382824535
+            ],
+            [
+              -117.25982666015624,
+              32.498180028410744
+            ],
+            [
+              -114.58465576171875,
+              32.713355353177555
+            ],
+            [
+              -114.45556640625,
+              32.74339241542703
+            ],
+            [
+              -114.42260742187499,
+              32.9257074887604
+            ],
+            [
+              -114.47753906249999,
+              33.04550781490999
+            ],
+            [
+              -114.62585449218749,
+              33.089240433964726
+            ],
+            [
+              -114.64508056640624,
+              33.36035566675374
+            ],
+            [
+              -114.48577880859375,
+              33.548262116088615
+            ],
+            [
+              -114.466552734375,
+              33.93196649986436
+            ],
+            [
+              -114.06005859375,
+              34.27310565528197
+            ],
+            [
+              -114.60113525390625,
+              34.88367790965999
+            ],
+            [
+              -114.59564208984374,
+              34.99625375979014
+            ],
+            [
+              -119.9871826171875,
+              39.01491572891582
+            ],
+            [
+              -119.97344970703124,
+              42.014611228817955
+            ],
+            [
+              -124.30755615234375,
+              42.0227732629691
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ch",
+        "name": "Switzerland"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.646240234375,
+              47.868459093342956
+            ],
+            [
+              6.56982421875,
+              47.491224888201955
+            ],
+            [
+              6.0369873046875,
+              46.66451741754235
+            ],
+            [
+              5.9051513671875,
+              46.11513371326539
+            ],
+            [
+              6.3720703125,
+              46.172222978455395
+            ],
+            [
+              6.5643310546875,
+              46.36967413462374
+            ],
+            [
+              6.7401123046875,
+              46.27483447871404
+            ],
+            [
+              6.734619140625,
+              46.08466189789014
+            ],
+            [
+              7.1136474609375,
+              45.78284835197676
+            ],
+            [
+              7.9705810546875,
+              45.863237552964364
+            ],
+            [
+              8.3056640625,
+              46.160809861457125
+            ],
+            [
+              8.8604736328125,
+              45.80199916666154
+            ],
+            [
+              9.0582275390625,
+              45.77901739936284
+            ],
+            [
+              9.25048828125,
+              46.042735653846506
+            ],
+            [
+              9.4097900390625,
+              46.27863122156088
+            ],
+            [
+              9.77783203125,
+              46.244451065485094
+            ],
+            [
+              10.17333984375,
+              46.16841886922939
+            ],
+            [
+              10.6292724609375,
+              46.69843486113957
+            ],
+            [
+              10.4974365234375,
+              47.00273390667881
+            ],
+            [
+              10.3106689453125,
+              47.06638028321398
+            ],
+            [
+              10.118408203125,
+              46.95401192579361
+            ],
+            [
+              9.656982421875,
+              47.1075227853425
+            ],
+            [
+              9.6185302734375,
+              47.26059219342468
+            ],
+            [
+              9.744873046874998,
+              47.45780853075031
+            ],
+            [
+              9.2724609375,
+              47.70976154266637
+            ],
+            [
+              8.646240234375,
+              47.868459093342956
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "us-willamette-valley",
+        "name": "Greater Willamette Valley - Oregon and Washington states"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -124.392657, 43.259612
+            ],
+            [
+              -122.319674, 43.259612
+            ],
+            [
+              -122.319674, 46.554198
+
+            ],
+            [
+              -124.392657, 46.554198
+            ],
+            [
+              -124.392657, 43.259612
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
