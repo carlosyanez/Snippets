@@ -15,6 +15,9 @@ library(magick)
 font_add_google("Titillium Web", "Titilium")
 showtext_auto()
 
+### Function to plot osm extracts
+
+
 plot_polygons <- function(boundingbox,features, map_title,map_title_size=14,
                           map_source="stamen",map_type="toner", map_alpha=0.5,
                           poly_colour="#085202",line_colour="#085202",
