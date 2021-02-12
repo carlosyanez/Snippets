@@ -11,7 +11,6 @@ library(ggmap)
 
 library(showtext)
 library(magick)
-### Function to plot green spaces
 
 font_add_google("Titillium Web", "Titilium")
 showtext_auto()
@@ -66,9 +65,9 @@ plot_polygons <- function(boundingbox,features, map_title,map_title_size=14,
       message(values)
       
       parks <- opq(boundingbox) %>%
-        add_osm_feature(key = feature_key,
-                        value = values) %>%
-        osmdata_sp()
+               add_osm_feature(key = feature_key,
+                               value = values) %>%
+               osmdata_sp()
       message("osm data extracted")
       Sys.sleep(60)
       
