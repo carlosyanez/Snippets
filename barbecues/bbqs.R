@@ -1,4 +1,4 @@
-# Get plots of barbecue spots in Australian capital cities
+# Get plots of barbecue spots in Melbourne and Sydney
 
 
 # Load/Install pacman
@@ -18,7 +18,7 @@ showtext_auto()
 
 # Melbourne
 
-## get metropolitan area council
+## get list of metropolitan area councils
 
 melb_lgas_list <- read_html("https://en.wikipedia.org/wiki/Local_government_areas_of_Victoria#Municipalities_of_Greater_Melbourne") %>%
              html_node(xpath="/html/body/div[3]/div[3]/div[5]/div[1]/table[1]") %>%
@@ -184,7 +184,7 @@ syd_result_fortified <- tidy(syd_suburb,region="NSW_LOCA_2") %>%
 my_map_theme <- theme_set(theme_void())
 my_map_theme <- theme_update(plot.margin=grid::unit(c(0,0,0,0), "mm"),
                             #legend.position="right",
-                            plot.title = element_blank(),
+                            plot.title = element_text(size=16,face="bold",colour = "#272928",family="Roboto"),
                             plot.subtitle =element_blank(),
                             plot.caption =  element_blank(),
                             axis.ticks= element_blank(),
@@ -231,7 +231,7 @@ melb_map <- melb_result_fortified %>% mutate(Spots=cut(`Barbecue Spots`,breaks_b
   my_scale+
   coord_map() +
   theme(legend.position = "none") +
-  labs(title=NULL,x=NULL,y=NULL)
+  labs(title="Melbourne",x=NULL,y=NULL)
 
 
 syd_map <- syd_result_fortified %>% mutate(Spots=cut(`Barbecue Spots`,breaks_bbq,labels_bbq)) %>%
@@ -241,7 +241,7 @@ syd_map <- syd_result_fortified %>% mutate(Spots=cut(`Barbecue Spots`,breaks_bbq
   my_scale +
   coord_map()+
   theme(legend.position = "bottom", legend.box = "horizontal")+
-  labs(title=NULL,x=NULL,y=NULL)
+  labs(title="Sydney",x=NULL,y=NULL)
 
 
 map_legend <-as_ggplot(get_legend(syd_map, position = "bottom"))
@@ -299,12 +299,12 @@ ggsave(plot_file,p,dpi=500)
 
 plot <- image_read(plot_file)
 logo_raw <- image_read(logo_file) 
-logo <- logo_raw %>% image_resize("80x80") %>%
-  image_extent("350x60",gravity="west") %>%
+logo <- logo_raw %>% image_resize("150x150") %>%
+  image_extent("450x150",gravity="west") %>%
   image_annotate("@carlosyanez", color = "black",
                  font="Roboto",
-                 location="+61+0",
-                 size = 40, gravity = "west") 
+                 location="+130+0",
+                 size = 50, gravity = "west") 
 
 
 plot_height <- magick::image_info(plot)$height
@@ -312,7 +312,7 @@ plot_width <- magick::image_info(plot)$width
 
 # get dims of the logo
 logo_width <- magick::image_info(logo)$width
-logo_height <- magick::image_info(logo)$height
+logo_height <- magick::image_info(logo)$height +50
 
 y_pos <-round(plot_height - logo_height ,0)
 x_pos <-round(plot_width * 0.01,0)
