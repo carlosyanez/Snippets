@@ -1,0 +1,1 @@
+![](bushfires2020.png)
