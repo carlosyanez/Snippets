@@ -5,7 +5,8 @@
 librarian::shelf("tidyverse","sf","giscoR","units","measurements",
                  "labelled","ggmap","carlosyanez/customthemes","ggfx",
                  "carlosyanez/aussiemaps", #just for cleaning up function
-                 "ggtext")
+                 "ggtext",
+                 "knitr","pdftools","png")
 
 area_burnt_aus <- as_units(10173*10^3*10^4,"m^2") # #from https://www.agriculture.gov.au/abares/forestsaustralia/forest-data-maps-and-tools/fire-data#area-of-native-forest-in-fire-area-by-forest-tenure-and-jurisdiction
 area_burnt_us <-  as_units(5299044.8*10^4,"m^2") # https://en.wikipedia.org/wiki/2020_wildfire_season
@@ -126,10 +127,17 @@ caption_text <- "**Sources**: Eurostat,Wikipedia <br> <img src='https://upload.w
         plot.title.position = "plot",
         plot.title = element_markdown(size = 14,hjust=0),
         plot.subtitle = element_markdown(size = 12,hjust=0),
-        plot.caption = element_markdown(size = 9,hjust=0,vjust=0)) +
+        plot.caption = element_markdown(size = 9,hjust=0,vjust=0),
+        plot.margin=grid::unit(c(0,0,0,0), "mm")) +
   labs(title=title_text,
        subtitle=subtitle_text,
-       caption=caption_text)
-
-ggsave("bushfires2020.png",p1,dpi=400)
+       caption=caption_text) 
   
+
+# from https://www.pmassicotte.com/post/removing-borders-around-ggplot2-graphs/
+
+ggsave("bushfires2020.pdf",  device = cairo_pdf,p1,dpi=600)
+knitr::plot_crop("bushfires2020.pdf")
+bitmap <- pdftools::pdf_render_page("bushfires2020.pdf", dpi = 600)
+png::writePNG(bitmap, "bushfires2020.png")
+file.remove("bushfires2020.pdf")
