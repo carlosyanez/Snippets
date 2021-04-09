@@ -93,8 +93,8 @@ plot_map2020 <- world %>% left_join(forest_apportion %>% filter(!(is.nan(diffpc)
   coord_sf(expand = FALSE)+
   customthemes::custom_map_theme_md(legend_pos = "bottom",
                                     legend_dir = "horizontal",
-                                    background_colour = bg_colour,
-                                    plot_margin = c(0,-2,0,-2)) +
+                                    background_colour =bg_colour,
+                                    plot_margin = c(0,0,0,0)) +
   theme(legend.key.width=unit(1,"cm"),
         legend.key.height = unit(0.2,"cm"),
         legend.justification = "center") +
@@ -191,62 +191,51 @@ plot_dumbnell <- p1 / p2 + plot_layout(widths=1)  &
 #put together
 
 layout <- "
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-AAAAAAA
-BBB#DDD
-BBB#DDD
-BBB#DDD
-CCC#DDD
-CCC#DDD
-CCC#DDD
-CCC#DDD
-CCC#DDD
-CCC#DDD
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+AAAAAA#
+#######
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
+BBB#CCC
 "
 
-chart_title
-chart_subtitle
-chart_caption
 
-text_grob <- richtext_grob('Lorem ipsum dolor sit amet, <br>
-                           consectetur adipiscing elit, <br>
-                           sed do eiusmod tempor incididunt <br>
-                           ut labore et dolore magna aliqua. <br>  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.')
-
-plot_title <- 'The surprising truth about mtcars'
-plot_caption <-str_c('**Sources** : Our World in Data, Eurostat (maps), UN Population Division, Wikipedia <br>',
+plot_title <- '**Forests are not equally distribtuted**'
+plot_subtitle <- "Forests per capita in *2020*"
+plot_caption <-str_c('**Sources** : FAO/Our World in Data, Eurostat (maps), UN Population Division, Wikipedia <br>',
                      add_twitter_text("@carlosyanez"))
 
-deforestation <- plot_map2020 + top10 + plot_dumbnell + text_grob +
+deforestation <- plot_map2020 + top10 + plot_dumbnell + 
                   plot_layout(design = layout, widths = 50) +
                   plot_annotation(title=plot_title,
+                                  subtitle=plot_subtitle,
                                   caption=plot_caption) &
     theme(panel.background = element_rect(fill = bg_colour, colour = NA),
           plot.background = element_rect(fill = bg_colour, colour = NA),
-          plot.margin=grid::unit(c(1,3,1,3), "mm"),   ##top, right, bottom, left)
+          plot.margin=grid::unit(c(1,3,1,3), "mm"),   ## top, right, bottom, left)
           plot.title.position = "plot",
-          plot.title = element_markdown(size = 18,family=google_font,
+          plot.title = element_markdown(size = 24,family=google_font,
                                         hjust=0),
           plot.subtitle = element_markdown(size = 12,family=google_font,hjust=0),
           plot.caption = element_markdown(size = 10,hjust=0,vjust=0,family=google_font)
     )
-wv <- 9
 
-save_image(deforestation,here(tt_date,"deforestation.png"),width=wv,height=wv*1.25)
+wv <- 12
+save_image(deforestation,here(tt_date,"deforestation.png"),width=wv,height=wv*0.85)
 
+deforestation
 
 
