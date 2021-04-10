@@ -213,7 +213,7 @@ BBB#CCC
 "
 
 
-plot_title <- '**Forests are not equally distribtuted**'
+plot_title <- '**Forests are not equally distributed**'
 plot_subtitle <- "Forests per capita in *2020*"
 plot_caption <-str_c('**Sources** : FAO/Our World in Data, Eurostat (maps), UN Population Division, Wikipedia <br>',
                      add_twitter_text("@carlosyanez"))
