@@ -58,7 +58,27 @@ a <- tibble(list=a) %>%
      filter(!(list %in% c("pop"))) %>%
      pull(list)
 
-pop <- pop %>% mutate(across(where(is.numeric),function(x){x*1000}))
+pop <- pop %>% mutate(across(where(is.numeric),function(x){x*1000})) %>%
+       mutate(name = case_when(
+         name=="Bolivia (Plurinational State of)" ~ "Bolivia",
+         name=="Brunei Darussalam" ~ "Brunei",
+         name=="Dem. Republic of the Congo" ~ "Democratic Republic of Congo",
+         name=="Iran (Islamic Republic of)" ~"Iran",
+         name=="Lao People's Dem. Republic" ~ "Laos",
+         name=="Republic of Moldova" ~ "Moldova",
+         name=="Dem. People's Rep. of Korea" ~ "North Korea",
+         name=="State of Palestine" ~"Palestine",
+         name=="Russian Federation" ~ "Russia",
+         name=="Republic of Korea" ~ "South Korea",
+         name=="Syrian Arab Republic" ~ "Syria",
+         name=="United Republic of Tanzania" ~ "Tanzania",
+         name=="Timor-Leste" ~ "Timor",
+         name=="United States of America" ~ "United States",
+         name=="Venezuela (Bolivarian Republic of)" ~ "Venezuela",
+         name=="Viet Nam" ~ "Vietnam",
+         TRUE ~ name
+       ))
+#write_csv(pop,here(tt_date,"pop.csv"))  ## to export to use with python
 
 rm(list=a,"a")
 
@@ -77,11 +97,13 @@ forest_apportion <-forest_area %>%
                           area_diff_abs=(`2020` -`2000`)
                           )
 
+forest_apportion %>% filter(is.na(pop_2020))
+
 scale1 <- scale_fill_gradient2(low = "#d1b152",
                                mid = "#b6d6ab",
                                high = '#164a06',
                                midpoint = quantile(log(forest_apportion$pc2020),0.5, na.rm=TRUE),
-                               na.value = '#f0ecc9',
+                               na.value = '#cccccc',
                                trans = "log",
                                name = "hectares per capita",
                                breaks=c(0,1,20,500)
