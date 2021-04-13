@@ -7,8 +7,8 @@ from bs4 import BeautifulSoup
 import requests as r
 import geopandas 
 import geoplot
-import mapclassify as mc
-import matplotlib.pyplot as plt
+import altair as alt
+
 
 #load data
 
@@ -86,22 +86,33 @@ world=world.merge(area_pc,how="left",left_on=['name'], right_on=['entity'])
 
 
 # Initialize the figure
-fig, ax = plt.subplots(1, 1, figsize=(16, 12))
-
+ax = plt.subplots(2, 2, sharex='col', sharey='row', figsize=(16, 12))
+grid = plt.GridSpec(2, 2, wspace=0.4, hspace=0.3)
 scheme = mc.Quantiles(world['2020'], k=10)
-
-
+fig = plt.figure(figsize=(9, 16))
 # Map
-a= geoplot.choropleth(world, 
+
+main_ax = fig.add_subplot(grid[0, 0:])
+
+main_ax.geoplot.choropleth(world, 
     hue="2020", 
     linewidth=.1,
     scheme=scheme, cmap='viridis',
     legend=True,
-    edgecolor='black',
-    ax=ax
-);
+    edgecolor='black')
 
-ax.set_title('Forest area per capita in 202', fontsize=13);
+ax.set_title('Forest area per capita in 202', fontsize=13)
 
-plt.show(a)
+
+top10_plot = sns.barplot(
+    x="2020", 
+    y="entity", 
+    data=area_pc, 
+    estimator=sum, 
+    ci=None, 
+    color='#69b3a2');
+    
+    
+plt.show(top10_plot)
+
 

@@ -5,9 +5,11 @@
 if(!require(librarian)) install.packages("librarian")
 if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
 
+
 # load other libraries
 librarian::shelf("tidyverse",                 # no intro required
                  "rvest",                     # scrapping data from wikipedia
+                 "polite",
                  "patchwork",                 # plotting aggregation
                   "here",
                  "ggtext",                    # element_markdown()
@@ -17,7 +19,10 @@ librarian::shelf("tidyverse",                 # no intro required
                  "ggalt",                     # for Dumbnell chart
                  "wpp2019",                   # world population prospects from United Nations Population Division
                  "giscoR","sf",               # maps
-                 "carlosyanez/customthemes"   # personal library with custom themes
+                 "carlosyanez/customthemes",   # personal library with custom themes
+                 "mitchelloharawild/icons",
+                 "rsvg",
+                 "png"
                  )
 
 
@@ -35,8 +40,9 @@ forest_area <- tuesdata$forest_area
 brazil_loss <- tuesdata$brazil_loss
 
 # overall forest area estimate from FAO via wikipedia
+session <-bow("https://en.m.wikipedia.org/wiki/List_of_countries_by_forest_area", force = TRUE)
 
-forest_area_year <- read_html("https://en.m.wikipedia.org/wiki/List_of_countries_by_forest_area") %>%
+forest_area_year <- scrape(session, query=list(t="semi-soft", per_page=100)) %>%
                html_node(xpath="/html/body/div[1]/div/main/div[3]/div[1]/div/section[2]/table") %>%
                html_table(fill = TRUE) %>%
                filter(Region=="World") %>%
@@ -237,8 +243,19 @@ BBB#CCC
 
 plot_title <- '**Forests are not equally distributed**'
 plot_subtitle <- "Forests per capita in *2020*"
+
+
+##get social icons
+#if(!icon_installed(ionicons)) download_ionicons()
+#github_logo  <- ionicons("logo-github")
+#writeLines(toString(github_logo), here(tt_date,"github_logo.svg"))
+#rsvg::rsvg_png(here(tt_date,"github_logo.svg"), here(tt_date,"github_logo.png"), width = 800)
+
+
 plot_caption <-str_c('**Sources** : FAO/Our World in Data, Eurostat (maps), UN Population Division, Wikipedia <br>',
-                     add_twitter_text("@carlosyanez"))
+                     add_social_ref("@carlosyanez"))#," ",
+                     #add_social_ref("/carlosyanez",12,here(tt_date,"github_logo.png")))
+
 
 deforestation <- plot_map2020 + top10 + plot_dumbnell + 
                   plot_layout(design = layout, widths = 50) +
