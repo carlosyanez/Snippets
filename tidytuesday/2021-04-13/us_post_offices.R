@@ -8,20 +8,26 @@ if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
 # load other libraries
 
 
-librarian::shelf("tidyverse","sf","patchwork","cowplot",)
+librarian::shelf("tidyverse","sf","patchwork","cowplot","ggtext",
+                 "showtext","sysfonts","units","tinter","here",
+                 "yutannihilation/ggsflabel","ggrepel",
+                 "carlosyanez/customthemes",
+                 "maps","tigris","grid")
  
+# load tt data
+tuesdata <- tidytuesdayR::tt_load(tt_date)
+post_offices <- tuesdata$post_offices
+
 # folder reference for here()
 tt_date<-"2021-04-13"
 
 #ference year for plots
-ref_year <- 1940
+ref_year <- 1945
 
 #buffer area around route 66
-buffer_area <- set_units(20,km)
+buffer_area <- set_units(5,km)
 
-# load data
-tuesdata <- tidytuesdayR::tt_load(tt_date)
-post_offices <- tuesdata$post_offices
+
 
 # create sf object
 
@@ -95,12 +101,12 @@ song_places <-tribble(~NAME,         ~STATE, ~group,
                       "Chicago",       "IL", 1,
                       "St. Louis",     "MO", 2,
                       "Joplin",        "MO", 2,
-                      "Oklahoma City", "OK", 1,
+                      "Oklahoma City", "OK", 3,
                       "Amarillo",      "TX", 2,
-                      "Gallup",        "NM", 1,
+                      "Gallup",        "NM", 3,
                       "Flagstaff",     "AZ", 1,
                       "Winona",        "AZ", 1,
-                      "Kingman",       "AZ", 1,
+                      "Kingman",       "AZ", 3,
                       "Barstow",       "CA", 3, 
                       "San Bernardino","CA", 2,
                       "Los Angeles"   ,"CA", 4)
@@ -145,7 +151,7 @@ my_arrow <- arrow(angle = 30, length = unit(0.075, "inches"),
                   ends = "first", type = "open")
 
 #plots
-
+set.seed(42)
 base_plot <- ggplot()+
              geom_sf(data=counties66 ,aes(geometry=geom),colour=county_border, size=0.5,fill=county_fill,inherit.aes = FALSE) +
              geom_sf(data=route66 ,aes(geometry=geometry),colour=route66_fill, alpha=1,size=2,inherit.aes = FALSE) +
@@ -156,13 +162,14 @@ base_plot <- ggplot()+
                                 family=city_font,
                                 size=city_size,
                                 force=10,
-                                nudge_x = 1,                           #it doesn't like vectors, unlike geom_text_repel
+                                nudge_x = 1,
+                                direction ="both",
+                                point.padding = 0.1,
                                 box.padding = 0.5,
                                 nudge_y = 1.6,
                                 segment.curvature = -0.1,
                                 segment.ncp = 3,
-                                segment.angle = 20,
-                                arrow=my_arrow) +
+                                segment.angle = 20) +
             geom_sf_text_repel(data = cities66 %>% filter(group==2),
                      aes(geometry=geometry, label = NAME),
                      colour=text_colour,
@@ -170,6 +177,8 @@ base_plot <- ggplot()+
                      size=city_size,
                      force=10,
                      nudge_x = 1,
+                     direction ="both",
+                     point.padding = 0.1,
                      box.padding = 0.5,
                      nudge_y = -1.1,
                      segment.curvature = -0.1,
@@ -183,6 +192,8 @@ base_plot <- ggplot()+
                      size=city_size,
                      force=10,
                      nudge_x = -1,
+                     direction ="both",
+                     point.padding = 0.1,
                      box.padding = 0.5,
                      nudge_y = 1.1,
                      segment.curvature = -0.1,
@@ -194,10 +205,12 @@ base_plot <- ggplot()+
                      colour=text_colour,
                      family=city_font,
                      size=city_size,
-                     force=120,
-                     nudge_x = -20,
-                     nudge_y = -50,
+                     force=10,
+                     nudge_x = -2,
+                     nudge_y = -5,
                      box.padding = 0.5,
+                     direction ="both",
+                     point.padding = 0.1,
                      segment.curvature = -0.1,
                      segment.ncp = 3,
                      segment.angle = 20,
@@ -208,9 +221,11 @@ base_plot <- ggplot()+
 
 
 post_office_winona <- post_offices_66 %>% filter(name=="WINONA") %>%
-                      mutate(label=str_c(name,
+                      mutate(label_name=str_c(name,
                                          if_else(discontinued<ref_year," - Already closed in "," - Closed in"),
-                                                 discontinued))
+                                                 discontinued)) %>%
+                       mutate(lat = sf::st_coordinates(.)[,1],
+                              lon = sf::st_coordinates(.)[,2])
            
 p1<- base_plot +
         geom_sf(data= (post_offices_66 %>% filter(!opened_after_ref & !closed_before_ref)) ,
@@ -218,47 +233,48 @@ p1<- base_plot +
         alpha=0.4,inherit.aes = FALSE) +
         labs(subtitle = str_c("**Active** in ",ref_year))
 
-p1.1<- base_plot +
-  geom_sf(data= (post_offices_66 %>% filter(decade_discountinued=="Open")) ,
-          aes(geometry=geometry),fill=us_post_fill, colour=us_post_fill,size=3,
-          alpha=0.4,inherit.aes = FALSE) +
-  labs(subtitle = str_c("**Active** in 2020"))
 
+set.seed(42)
 p2<- base_plot +
   geom_sf(data= post_offices_66 %>% filter(!opened_after_ref & !closed_before_ref & !(decade_discountinued=="Open")),
           aes(geometry=geometry, colour=`Closed on`),size=3,alpha=0.5,inherit.aes = FALSE) +
   geom_sf(data = post_office_winona,
-          aes(geometry=geometry),colour=winona_colour,size=3)+
-  geom_sf_text(data = post_office_winona,
-                     aes(geometry=geometry, label = label),
-                     colour=winona_colour,
+          aes(geometry=geometry),colour=winona_colour,size=3) +
+  geom_text_repel(data = post_office_winona,
+                     aes(label = label_name,x=lat,y=lon),
+                     colour="red",
                      family=city_font,
-                     nudge_y = -1.5,
                      fontface="bold",
-                     size=city_size
-                     ) +
-  theme(legend.position = "bottom") +
+                     size=city_size,
+                     force=10,
+                     nudge_x = 0,
+                     direction ="y",
+                     point.padding = 95,
+                     box.padding = 0.5,
+                     nudge_y = 10,
+                     segment.colour="red",
+                     segment.linetype="solid",
+                     arrow =my_arrow) +
+  theme(legend.position = c(.23,.95)) +
   labs(subtitle = str_c("**Closed** from ",ref_year," onwards"))
 
 
 #putting plots together
 
-plot_title <- str_c("Winona was forgotten")
-plot_subtitle <- str_c("*Post Office closures along Route 66 from ",ref_year," onwards* <br>")
-plot_caption <-str_c('**Sources**: Cameron Blevins and Richard W. Helbock via tidytuesday,',
-                     'US National Park Service, TIGER/Line, {maps}, and Bobby Troup','<br>',
-                     add_social_ref("@carlosyanez"))
+plot_title <- str_c("Winona has been forgotten")
+plot_subtitle <- str_c("*Post Office closures along Route 66 from ",ref_year," onwards*")
+plot_caption <-str_c(str_c('**Sources:** Cameron. Blevins and Richard W. Helbock, US National Park Service, TIGER/Line, {maps}, and Bobby Troup'),
+                     '<br><br>',
+                    add_social_ref("@carlosyanez"))
 
 
-
-
-p<- p1 / p2  + plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption) &
+p <- p1 / p2  + plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption) &
               theme(plot.title.position = "plot",
                     plot.background = element_rect(fill=bg_colour),
-                    plot.title = element_markdown(size = 18,family=google_font,face="bold",
+                    plot.title = element_markdown(size = 18,family=city_font,face="bold",
                                       hjust=0,colour=darken(text_colour,0.2)),
-                    plot.subtitle = element_markdown(size = 12,family=google_font,hjust=0,
-                                                     colour=darken(text_colour,0.2)),
+                    plot.subtitle = element_markdown(size = 12,family=city_font,hjust=0,
+                                                     colour=darken(text_colour,0.08)),
                     plot.caption = element_markdown(size = 10,hjust=0,vjust=0,family=google_font)
                     )  
 
@@ -268,7 +284,7 @@ p<- p1 / p2  + plot_annotation(title=plot_title,subtitle = plot_subtitle,caption
  
 cp <- ggdraw(p) + 
 draw_image(here(tt_date,"route66.png"),
-   scale = .08, x =0, y=0.653)
+   scale = .08, x =0.46, y=0.455)
 
 
 
