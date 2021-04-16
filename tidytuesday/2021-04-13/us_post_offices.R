@@ -10,7 +10,7 @@ if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
 
 librarian::shelf("tidyverse","sf","patchwork","cowplot","ggtext",
                  "showtext","sysfonts","units","tinter","here",
-                 "yutannihilation/ggsflabel","ggrepel",
+                 "yutannihilation/ggsflabel","ggrepel","png"
                  "carlosyanez/customthemes",
                  "maps","tigris","grid")
  
@@ -214,8 +214,10 @@ base_plot <- ggplot()+
                      segment.curvature = -0.1,
                      segment.ncp = 3,
                      segment.angle = 20,
-                     arrow=my_arrow) +
-             custom_map_theme_md(legend_pos = "none", plot_margin = c(0,0,0,0)) +
+                     arrow=my_arrow) 
+
+
+theme_base <-  custom_map_theme_md(legend_pos = "none", plot_margin = c(0,0,0,0)) +
              theme(panel.background = element_rect(fill=lighten(county_fill,0.1),
                                                    colour = lighten(county_border,0.2)))
 
@@ -263,28 +265,36 @@ p2<- base_plot +
 
 plot_title <- str_c("Winona has been forgotten")
 plot_subtitle <- str_c("*Post Office closures along Route 66 from ",ref_year," onwards*")
-plot_caption <-str_c(str_c('**Sources:** Cameron. Blevins and Richard W. Helbock, US National Park Service, TIGER/Line, {maps}, and Bobby Troup'),
+plot_caption <-str_c(str_c('**Sources:** Cameron Blevins and Richard W. Helbock, US National Park Service, TIGER/Line, {maps}, and Bobby Troup'),
                      '<br><br>',
                     add_social_ref("@carlosyanez"))
 
+#logo <- here(tt_date,"route66.png")
+#logo <- png::readPNG(logo, native = TRUE)
+#plogo <- inset_element(logo, 0.9, 0.8, 1, 1, align_to = 'full', on_top=TRUE)
 
-p <- p1 / p2  + plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption) &
-              theme(plot.title.position = "plot",
-                    plot.background = element_rect(fill=bg_colour),
-                    plot.title = element_markdown(size = 18,family=city_font,face="bold",
-                                      hjust=0,colour=darken(text_colour,0.2)),
-                    plot.subtitle = element_markdown(size = 12,family=city_font,hjust=0,
-                                                     colour=darken(text_colour,0.08)),
-                    plot.caption = element_markdown(size = 10,hjust=0,vjust=0,family=google_font)
-                    )  
+p <- (p1  / p2) +  
+              plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption)
+             
 
+p[[1]] <- p[[1]] + theme_base
+p[[2]] <- p[[2]] + theme_base
 
+p <- p &  theme(plot.title.position = "plot",
+                plot.background = element_rect(fill=bg_colour),
+                plot.title = element_markdown(size = 18,family=city_font,face="bold",
+                                              hjust=0,colour=darken(text_colour,0.2)),
+                plot.subtitle = element_markdown(size = 12,family=city_font,hjust=0,
+                                                 colour=darken(text_colour,0.08)),
+                plot.caption = element_markdown(size = 10,hjust=0,vjust=0,family=google_font)
+)  
 
 ## image from https://imgbin.com/png/d72xgBtC/u-s-route-66-in-california-oatman-interstate-40-road-png
  
 cp <- ggdraw(p) + 
 draw_image(here(tt_date,"route66.png"),
-   scale = .08, x =0.46, y=0.455)
+   scale = .08, x =0.40, y=0.455)
+
 
 
 
