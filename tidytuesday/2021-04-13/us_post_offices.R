@@ -10,7 +10,7 @@ if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
 
 librarian::shelf("tidyverse","sf","patchwork","cowplot","ggtext",
                  "showtext","sysfonts","units","tinter","here",
-                 "yutannihilation/ggsflabel","ggrepel","png"
+                 "yutannihilation/ggsflabel","ggrepel","png",
                  "carlosyanez/customthemes",
                  "maps","tigris","grid")
  
