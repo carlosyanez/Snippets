@@ -290,7 +290,7 @@ p <- (p1  / p2) + plogo +
 
 
 p[[1]] <- p[[1]] + theme_base
-p[[2]] <- p[[2]] + theme_base
+p[[2]] <- p[[2]] + theme_base + theme(legend.position = c(.23,.95)) 
 p[[3]] <- p[[3]] + theme_void()
 
 p <- p & theme(plot.background = element_rect(fill=bg_colour))
