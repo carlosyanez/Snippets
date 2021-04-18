@@ -8,7 +8,7 @@ if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
 # load other libraries
 
 
-librarian::shelf("tidyverse","sf","patchwork","cowplot","ggtext",
+librarian::shelf("tidyverse","sf","patchwork","ggtext",
                  "showtext","sysfonts","units","tinter","here",
                  "yutannihilation/ggsflabel","ggrepel","png",
                  "carlosyanez/customthemes",
@@ -269,19 +269,18 @@ plot_caption <-str_c(str_c('**Sources:** Cameron Blevins and Richard W. Helbock,
                      '<br><br>',
                     add_social_ref("@carlosyanez"))
 
-#logo <- here(tt_date,"route66.png")
-#logo <- png::readPNG(logo, native = TRUE)
-#plogo <- inset_element(logo, 0.9, 0.8, 1, 1, align_to = 'full', on_top=TRUE)
+## image from https://imgbin.com/png/d72xgBtC/u-s-route-66-in-california-oatman-interstate-40-road-png
+logo <- here(tt_date,"route66.png")
+logo <- png::readPNG(logo, native = TRUE)
 
-p <- (p1  / p2) +  
-              plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption)
-             
+top   <- 24.5
+right <- 29.5
 
-p[[1]] <- p[[1]] + theme_base
-p[[2]] <- p[[2]] + theme_base
+plogo <- inset_element(logo, unit(right-2.5,"cm"), unit(top-2.5,"cm"), unit(right,"cm"), unit(top,"cm"), align_to = 'full', on_top=FALSE) 
 
-p <- p &  theme(plot.title.position = "plot",
-                plot.background = element_rect(fill=bg_colour),
+p <- (p1  / p2) + plogo +  
+              plot_annotation(title=plot_title,subtitle = plot_subtitle,caption = plot_caption) & 
+                theme(plot.title.position = "plot",
                 plot.title = element_markdown(size = 18,family=city_font,face="bold",
                                               hjust=0,colour=darken(text_colour,0.2)),
                 plot.subtitle = element_markdown(size = 12,family=city_font,hjust=0,
@@ -289,15 +288,24 @@ p <- p &  theme(plot.title.position = "plot",
                 plot.caption = element_markdown(size = 10,hjust=0,vjust=0,family=google_font)
 )  
 
-## image from https://imgbin.com/png/d72xgBtC/u-s-route-66-in-california-oatman-interstate-40-road-png
+
+p[[1]] <- p[[1]] + theme_base
+p[[2]] <- p[[2]] + theme_base
+p[[3]] <- p[[3]] + theme_void()
+
+p <- p & theme(plot.background = element_rect(fill=bg_colour))
+
+p[[3]] <- p[[3]] + theme(plot.background = element_rect(fill="transparent",colour=NA))
+
+
  
-cp <- ggdraw(p) + 
-draw_image(here(tt_date,"route66.png"),
-   scale = .08, x =0.40, y=0.455)
+#cp <- ggdraw(p) + 
+#draw_image(here(tt_date,"route66.png"),
+#   scale = .08, x =0.40, y=0.455)
 
 
 
 
 ##save on file
 wv <- 12
-save_image(cp,here(tt_date,"post_office_route66.png"),width=wv,height=wv*0.85) 
+save_image(p,here(tt_date,"post_office_route66.png"),width=wv,height=wv*0.85) 
