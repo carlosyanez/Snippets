@@ -298,13 +298,6 @@ p <- p & theme(plot.background = element_rect(fill=bg_colour))
 p[[3]] <- p[[3]] + theme(plot.background = element_rect(fill="transparent",colour=NA))
 
 
- 
-#cp <- ggdraw(p) + 
-#draw_image(here(tt_date,"route66.png"),
-#   scale = .08, x =0.40, y=0.455)
-
-
-
 
 ##save on file
 wv <- 12
