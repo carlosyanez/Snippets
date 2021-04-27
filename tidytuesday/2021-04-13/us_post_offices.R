@@ -13,13 +13,15 @@ librarian::shelf("tidyverse","sf","patchwork","ggtext",
                  "yutannihilation/ggsflabel","ggrepel","png",
                  "carlosyanez/customthemes",
                  "maps","tigris","grid")
+
+# folder reference for here()
+tt_date<-"2021-04-13"
+
  
 # load tt data
 tuesdata <- tidytuesdayR::tt_load(tt_date)
 post_offices <- tuesdata$post_offices
 
-# folder reference for here()
-tt_date<-"2021-04-13"
 
 #ference year for plots
 ref_year <- 1945

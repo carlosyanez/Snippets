@@ -1,0 +1,216 @@
+# https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-04-20/readme.md
+
+# make sure that {librarian} and {tidytuesdayR} are there
+if(!require(librarian)) install.packages("librarian")
+
+# load other libraries
+
+librarian::shelf("tidyverse",
+                 "here",
+                 "ggbeeswarm",
+                 "patchwork",
+                 "ggtext",
+                 "showtext",
+                 "sysfonts",
+                 "ggrepel",
+                 "arrow",
+                 "flextable",
+                 "plotly",                    #for data exploration
+                 "carlosyanez/customthemes")
+
+# folder reference for here()
+tt_date<-"2021-04-20"
+
+
+# load tt data
+if(!file.exists(here(tt_date,"tidytuesday.parquet"))){
+  
+      if(!require(tidytuesdayR)) install.packages("tidytuesdayR")
+  
+      tuesdata <- tidytuesdayR::tt_load(tt_date)
+      write_parquet(tuesdata$netflix_titles, here(tt_date,"tidytuesday.parquet"),compression = "gzip", compression_level = 5)
+      netflix_titles <- tuesdata$netflix_titles
+}else{
+  netflix_titles <- read_parquet(here(tt_date,"tidytuesday.parquet"))
+}
+
+
+#load ratings
+if(file.exists(here(tt_date,"ratings.parquet"))){
+  #ratings <- readRDS(here(tt_date,"ratings.rds"))
+  ratings <- read_parquet(here(tt_date,"ratings.parquet"))
+  
+}else{
+  librarian::shelf("imdbapi")
+  ratings <-map_df(netflix_titles$title,function(x){
+              message(x)
+              result <- find_by_title(title=x)
+              if(nrow(result)>0) result
+               })
+  #saveRDS(ratings,here(tt_date,"ratings.rds"))
+  write_parquet(ratings, here(tt_date,"ratings.parquet"),compression = "gzip", compression_level = 5)
+}
+
+# from  https://codepen.io/claudio_bonfati/pen/mdryxPv
+netflix_palette <- c("#ff0100","#ffde01","#ff00cc","#04fd8f","#0078fe","#0080ff","#ffae01","#ff00bf")
+
+netflix_red <- "#E50914"
+  
+#ratings <- ratings %>% unnest(Ratings)
+
+#just keep imdb ratings and language
+
+ratings <- ratings  %>% select(Title,Language, Country, imdbRating) %>% unique(.)
+
+# join with netflix list, remove NAs
+
+netflix_catalogue <- netflix_titles  %>%
+                     left_join(ratings,by=c("title"="Title")) %>%
+                     filter(!is.na(imdbRating)) %>%
+                     separate(Country, c("country_main","other_countries"), sep = ',') %>%
+                     replace_na(list(country_main="NA")) %>%
+                     select(-other_countries) %>%
+                     separate_rows(listed_in,sep=",") %>%
+                     mutate(listed_in=str_remove(listed_in,"TV Shows"),
+                            listed_in=str_remove(listed_in,"TV"),
+                            listed_in=str_remove(listed_in,"Movies")) %>%
+                     mutate(listed_in=str_squish(listed_in)) %>%
+                     filter(!(listed_in %in% c("Spanish-Language","International","British","Korean")))
+  
+  
+
+
+country_stats <- netflix_catalogue %>%
+                 group_by(country_main,listed_in) %>% 
+                 summarise(n=n(),median=median(imdbRating),var=var(imdbRating), .groups = "drop") %>%
+                 mutate(group_id=row_number(),
+                        group=as.character(ntile(median,length(netflix_palette))),
+                        label=str_c(country_main," - ",listed_in)) %>%
+                 filter(!(country_main=="N/A"))
+                 
+                
+
+nf_theme      <-   custom_plot_theme_md(background_colour = "black",plot_margin = c(0,0,0,0),title_colour = "white") +
+                   theme(panel.grid.major =element_blank(),
+                         panel.grid.minor=element_blank(),
+                         panel.border=element_blank()
+                        ) 
+
+
+categories_to_higlight <-c(331,691,562,156,257,103,701)
+palette1 <- netflix_palette[1:length(categories_to_higlight)]
+
+#arrow shapes
+
+my_arrow <- arrow(angle = 30, length = unit(0.09, "inches"),
+                  ends = "first", type = "open")
+
+set.seed(123)
+p <- ggplot() + 
+  geom_point(data=(country_stats %>% filter(n>15 & !(group_id %in% categories_to_higlight))),
+             aes(x=median,y=var,size=n),
+             alpha=0.6,colour=netflix_red) +
+  geom_point(data=(country_stats %>% filter(group_id %in% categories_to_higlight)),
+             aes(x=median,y=var,size=n,colour=label),
+             alpha=1) +
+  scale_colour_manual(values=palette1)+
+  geom_text_repel(data=(country_stats %>% filter(group_id %in% categories_to_higlight)),
+                  aes(x=median,y=var,label=label),
+                  colour="white",
+                  size=3.5,
+                  force=100,
+                  direction ="both",
+                  nudge_x=-0.1,
+                  point.padding = 0.1,
+                  box.padding = 0.5,
+                  arrow=my_arrow,
+                  segment.curvature = -0.2,
+                  segment.ncp = 1,
+                  segment.angle = 60) +
+  scale_x_continuous(name="median rating",breaks = seq(5,9,0.5))+
+  scale_size_binned(name="Titles",breaks=c(0,10,30,50,100,200)) +
+  scale_y_continuous(name="rating variance",breaks = seq(0,3,0.5)) +
+  guides(col=FALSE,
+         size=guide_legend(override.aes=list(colour=netflix_red)),
+                           title.theme = element_text(colour = "white",size=6)) +
+  nf_theme
+
+
+
+# ggplotly(p)
+# categories to highlight 
+
+
+# UK comedies 
+
+p2 <- netflix_catalogue %>%
+  left_join(country_stats,by=c("country_main","listed_in")) %>%
+  filter(group_id %in% categories_to_higlight) %>%
+  ggplot(aes(x=label,y=imdbRating,label=title,colour=label)) +
+  geom_beeswarm(alpha=0.5) +
+  scale_colour_manual(values=palette1)+
+  coord_flip() +
+  labs(y="Rating",x="") +
+  nf_theme +
+  theme(legend.position="none")
+  
+
+summary_table <- netflix_catalogue %>%
+  left_join(country_stats,by=c("country_main","listed_in")) %>%
+  filter(group_id %in% categories_to_higlight) %>% 
+  group_by(group_id) %>%
+  mutate(best_worst=case_when(
+    imdbRating==min(imdbRating) ~ "Worst",
+    imdbRating==max(imdbRating) ~ "Best",
+    TRUE ~ "Other"    
+  ))%>% ungroup() %>%  
+  filter(best_worst %in% c("Best","Worst"))
+
+summary_table<- summary_table %>% 
+     filter(best_worst=="Best") %>%
+     select(country_main,listed_in,best=title,best_rating=imdbRating,group_id) %>%
+     group_by(country_main,listed_in,best_rating,group_id) %>%
+     summarise(best=str_c(best,collapse = ", "),.groups = "drop") %>%
+     left_join(summary_table %>% 
+                 filter(best_worst=="Worst") %>%
+                 select(country_main,listed_in,worst=title,worst_rating=imdbRating,group_id) %>%
+                 group_by(country_main,listed_in,worst_rating,group_id) %>%
+                 summarise(worst=str_c(worst,collapse = ", "),.groups="drop"),
+              by=c("country_main","listed_in","group_id")) %>%
+              arrange(desc(group_id)) %>% 
+              mutate(`Country-Genre`=str_c(country_main," - ",listed_in),
+                     `Best Rated`=str_c(best," (",best_rating,")"),
+                     `Worst Rated`=str_c(worst," (",worst_rating,")"),
+                     .keep="none")
+
+
+table <- summary_table %>%
+         flextable() %>%
+         height(height=6, part = "body") %>%
+         width(j=1,width=2) %>%
+         width(j=2:3,width=4) %>%
+         bg(bg="black",part="all")
+  
+
+
+  
+         as_raster()
+
+
+p3 <- ggplot() + annotation_raster(table,0,1,0,1) +
+      theme(axis.line=element_blank(),
+            axis.text.x=element_blank(),
+            axis.text.y=element_blank(),
+            axis.ticks=element_blank(),
+            axis.title.x=element_blank(),
+            axis.title.y=element_blank(),
+            legend.position="none",
+            panel.background=element_blank(),
+            panel.border=element_blank(),
+            panel.grid.major=element_blank(),
+            panel.grid.minor=element_blank(),
+           # plot.background=element_rect(fill="black"),
+            plot.margin=unit(c(0,0,0,0), "cm"),
+            panel.spacing =unit(c(0,0,0,0), "cm"))
+
+p / (p2 + p3)
