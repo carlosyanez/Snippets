@@ -313,11 +313,14 @@ p_inter <- subplot(p1_inter,part_2,nrows = 2) %>%
                   plot_bgcolor=bg_colour,
                   title=list(text=str_c(plot_title,"\n",
                                         "<sup>",
-                                        str_remove_all(plot_subtitle,"\\*"),
+                                        str_remove_all(plot_subtitle,"\\*"),"\n",
+                                        plot_caption_inter,
                                         "</sup>"),
                               font=list(color=text_1_colour),
                               x=0
                               ),
+                  margin=list(t = 75))
+,
                  # https://stackoverflow.com/questions/45103559/plotly-adding-a-source-or-caption-to-a-chart          
                  annotations = 
                    list(x = 1, y = -0.1, text = plot_caption_inter, 
@@ -335,5 +338,7 @@ io_repo <- str_c(here() %>% str_remove("Snippets/tidytuesday"),"carlosyanez.gith
 saveWidget(as_widget(p_inter), str_c(io_repo,"netflix_categories.html"),
            selfcontained = FALSE,
            libdir = "lib",
-           background = bg_colour)
+           background = bg_colour,
+           title ="What to watch on Netflix?")
 
+saveWidget()
