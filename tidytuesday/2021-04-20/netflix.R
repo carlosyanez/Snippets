@@ -319,15 +319,9 @@ p_inter <- subplot(p1_inter,part_2,nrows = 2) %>%
                               font=list(color=text_1_colour),
                               x=0
                               ),
-                  margin=list(t = 75))
-,
-                 # https://stackoverflow.com/questions/45103559/plotly-adding-a-source-or-caption-to-a-chart          
-                 annotations = 
-                   list(x = 1, y = -0.1, text = plot_caption_inter, 
-                        howarrow = F, xref='paper', yref='paper', 
-                        xanchor='right', yanchor='auto', xshift=0, yshift=0,
-                        font=list(size=12, color=text_1_colour))
-           )
+                  margin=list(t = 75)) %>%
+          config(displayModeBar = FALSE)
+
 
 
 
@@ -341,4 +335,3 @@ saveWidget(as_widget(p_inter), str_c(io_repo,"netflix_categories.html"),
            background = bg_colour,
            title ="What to watch on Netflix?")
 
-saveWidget()
