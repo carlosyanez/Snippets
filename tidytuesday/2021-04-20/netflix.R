@@ -288,6 +288,8 @@ p <- p & theme(plot.background = element_rect(fill=bg_colour,colour=bg_colour))
 wv <- 12
 save_image(p,here(tt_date,"netflix_categories.png"),width=wv,height=wv*0.85) 
 
+
+
 #interactive
 p1_inter <- ggplotly(p1.0, tooltip = c("text")) 
 p2_inter <- ggplotly(p2, tooltip = c("text")) %>% layout(paper_bgcolor=bg_colour,
