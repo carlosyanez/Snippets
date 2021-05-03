@@ -51,12 +51,12 @@ dismissals <- departures %>%
               count(departure_code) %>%
               arrange(n) %>%
               mutate(new_code=row_number(),
-                     n_perc=n/sum(n))
+                     n_perc=100*n/sum(n))
 
-
+y_labels <- seq(0,ceiling(max(dismissals$n_perc)/10)*10,10)
 
 xrange <- c(min(dismissals$new_code)-.2,max(dismissals$new_code))
-yrange <- c(0,max(dismissals$n_perc))
+yrange <- c(0,max(y_labels))
 bar_width <- 0.3
 x_labels <- tibble(departure_code=1:7,
                    label=c("Death","Illness","Performance Issues","Legal Violations or Concerns",
@@ -64,6 +64,8 @@ x_labels <- tibble(departure_code=1:7,
                   left_join(dismissals,by="departure_code") %>%
                   arrange(new_code) %>%
                   pull(label)
+
+y_labels <- seq(0,ceiling(yrange[2]/10)*10,10)
 
 p<- ggplot() + xkcdrect(aes(xmin=new_code-bar_width,xmax=new_code+bar_width,
                          ymin=0,ymax=n_perc),
@@ -73,9 +75,10 @@ p<- ggplot() + xkcdrect(aes(xmin=new_code-bar_width,xmax=new_code+bar_width,
   theme_xkcd() +
    labs(x="",y="Percentage of total",
         title="Is a tough job?",
-        subtitle="Reasons for CEO exits in SP 5000 company between 2000 and 2018",
+        subtitle="Reasons for CEO departures in SP 5000 companies between 2000 and 2018",
         caption="Source :  Gentry et al. via DataIsPlural and tidytuesday -- twitter: at carlosyanez") + 
    scale_x_continuous(breaks=1:7,labels=x_labels)+
+   scale_y_continuous(breaks = y_labels,labels = y_labels)+
    coord_flip() +
   theme(plot.background=element_rect(colour="black"))
 
