@@ -2,7 +2,7 @@
 # TidyTuesday  
 
 ## 2021-04-27 - CEO Departures
-![](2021-04-20/ceo_departures.png)
+![](2021-04-27/ceo_departures.png)
 
 ## 2021-04-20 - Netflix Ratings
 ![](2021-04-20/netflix_categories.png)
