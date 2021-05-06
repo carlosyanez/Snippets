@@ -1,4 +1,4 @@
-# https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-04-20/readme.md
+# https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-04-27/readme.md
 
 # make sure that {librarian} and {tidytuesdayR} are there
 if(!require(librarian)) install.packages("librarian")
@@ -9,7 +9,6 @@ if(!require(librarian)) install.packages("librarian")
 librarian::shelf("tidyverse",
                  "here",
                  "arrow",
-                 "flextable",
                  "xkcd",
                  "showtext",
                  "carlosyanez/customthemes")
