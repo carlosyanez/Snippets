@@ -2,10 +2,10 @@
 
 
 # Load/Install pacman
-if(!require(pacman)) install.packages("pacman", repos = "http://cran.us.r-project.org")
+if(!require(librarian)) install.packages("librarian", repos = "http://cran.us.r-project.org")
 
 #use pacman to install all other packages
-pacman::p_load("tidyverse","ggplot2","patchwork","broom","showtext","magick","grid","gridExtra","ggpubr",
+librarian::shelf("tidyverse","ggplot2","patchwork","broom","showtext","magick","grid","gridExtra","ggpubr",
                "osmdata","spdplyr","sp","rgdal","raster","maptools",
                "rvest","xml2")
 
